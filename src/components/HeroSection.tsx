@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimatedElement from './AnimatedElement';
 
 const HeroSection: React.FC = () => {
@@ -38,12 +39,12 @@ const HeroSection: React.FC = () => {
             </AnimatedElement>
 
             <AnimatedElement animationType="scale" delay={800}>
-              <a 
-                href="#systems" 
+              <Link 
+                to="/controllers" 
                 className="inline-block bg-white text-green-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 Узнать больше
-              </a>
+              </Link>
             </AnimatedElement>
           </div>
 

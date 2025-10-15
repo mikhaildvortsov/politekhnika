@@ -9,7 +9,7 @@ const ControllersPage: React.FC = () => {
         <div className="relative h-96 md:h-[32rem] overflow-hidden">
           <img
             src="/images/photos/sys.jpg"
-            alt="Контроллеры автополива"
+            alt="Контроллеры для автополива"
             className="w-full h-full object-cover"
             style={{ objectPosition: 'center 15%' }}
           />
@@ -18,7 +18,7 @@ const ControllersPage: React.FC = () => {
             <AnimatedElement animationType="fade-up" delay={200}>
               <div className="text-center text-white px-4">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-                  КОНТРОЛЛЕРЫ АВТОПОЛИВА
+                  КОНТРОЛЛЕРЫ ДЛЯ АВТОПОЛИВА
                 </h1>
                 <p className="text-xl md:text-2xl font-light">
                   Умные системы автополива
@@ -64,8 +64,8 @@ const ControllersPage: React.FC = () => {
             <AnimatedElement animationType="fade-right" delay={200}>
               <div className="rounded-2xl overflow-hidden">
                 <img 
-                  src="/images/photos/system.jpg" 
-                  alt="Контроллер Hunter"
+                  src="/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp" 
+                  alt="Контроллеры для автополива"
                   className="w-full h-auto object-cover"
                 />
               </div>

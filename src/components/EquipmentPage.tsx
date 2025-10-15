@@ -11,7 +11,7 @@ const EquipmentPage: React.FC = () => {
   const equipmentItems: EquipmentItem[] = [
     {
       id: 1,
-      name: 'Контроллеры систем автоматического полива',
+      name: 'Контроллеры для автополива',
       image: '/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp'
     },
     {

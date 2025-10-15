@@ -5,8 +5,8 @@ import AnimatedElement from './AnimatedElement';
 const PhotoCardsSection: React.FC = () => {
   const cards = [
     {
-      title: "Системы автополива",
-      image: "/images/photos/1.jpg",
+      title: "Проектирование систем автополива",
+      image: "/images/photos/architect_hands.jpg",
       link: "/systems"
     },
     {

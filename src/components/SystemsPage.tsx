@@ -82,8 +82,8 @@ const SystemsPage: React.FC = () => {
             <AnimatedElement animationType="fade-left" delay={300}>
               <div className="flex justify-center lg:justify-end">
                 <img
-                  src="/images/photos/hunter_testing.jpg"
-                  alt="Контроллер Hunter для автополива"
+                  src="/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp"
+                  alt="Контроллеры для автополива"
                   className="w-full max-w-md h-auto rounded-2xl shadow-2xl"
                 />
               </div>

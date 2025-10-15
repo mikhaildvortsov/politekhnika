@@ -19,7 +19,9 @@ const Header: React.FC = () => {
     { name: "РОТОРНЫЕ ДОЖДЕВАТЕЛИ", href: "/rotors" },
     { name: "КОРПУСА ДОЖДЕВАТЕЛЕЙ", href: "/corpus" },
     { name: "MP ROTATOR. РОТАТОРНЫЕ ГОЛОВКИ", href: "/mp-rotator" },
-    { name: "ПОЛИМЕРНЫЕ ЕМКОСТИ ДЛЯ АВТОПОЛИВА", href: "#tanks" }
+    { name: "КАПЕЛЬНЫЙ ПОЛИВ", href: "#drip-irrigation" },
+    { name: "НАСОСНОЕ ОБОРУДОВАНИЕ", href: "#pump-equipment" },
+    { name: "ЕМКОСТИ", href: "#tanks" }
   ];
 
   return (

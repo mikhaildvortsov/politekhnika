@@ -5,9 +5,9 @@ import AnimatedElement from './AnimatedElement';
 const CatalogSection: React.FC = () => {
   const catalogItems = [
     {
-      title: "Контроллеры автополива",
+      title: "Контроллеры для автополива",
       description: "Wi-Fi контроллеры Hunter для умного управления поливом с вашего смартфона",
-      image: "/images/photos/rotor_sprinkler.jpg",
+      image: "/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp",
       link: "/controllers"
     },
     {
@@ -19,7 +19,7 @@ const CatalogSection: React.FC = () => {
     {
       title: "Дождеватели и форсунки",
       description: "Роторные и веерные дождеватели, MP Rotator для равномерного полива",
-      image: "/images/photos/sprinkler.jpg",
+      image: "/images/photos/heads.jpg",
       link: "/nozzles"
     },
     {
@@ -31,7 +31,7 @@ const CatalogSection: React.FC = () => {
     {
       title: "Корпуса дождевателей",
       description: "Выдвижные корпуса различной высоты для любых типов объектов",
-      image: "/images/photos/heads.jpg",
+      image: "/images/photos/sprinkler.jpg",
       link: "/corpus"
     },
     {
