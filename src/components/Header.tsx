@@ -149,20 +149,28 @@ const Header: React.FC = () => {
             <div className="space-y-1">
               {/* СИСТЕМЫ АВТОПОЛИВА */}
               <div>
-                <button
-                  onClick={() => setMobileSubmenu(mobileSubmenu === 'systems' ? null : 'systems')}
-                  className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
-                >
-                  <span>СИСТЕМЫ АВТОПОЛИВА</span>
-                  <svg
-                    className={`ml-2 h-5 w-5 transform transition-transform ${mobileSubmenu === 'systems' ? 'rotate-180' : ''}`}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
+                <div className="flex items-center">
+                  <Link
+                    to="/установка-систем-автополива"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex-1 px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
+                    СИСТЕМЫ АВТОПОЛИВА
+                  </Link>
+                  <button
+                    onClick={() => setMobileSubmenu(mobileSubmenu === 'systems' ? null : 'systems')}
+                    className="px-3 py-2 text-gray-700 hover:text-gray-900"
+                  >
+                    <svg
+                      className={`h-5 w-5 transform transition-transform ${mobileSubmenu === 'systems' ? 'rotate-180' : ''}`}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
                 {mobileSubmenu === 'systems' && (
                   <div className="pl-4 space-y-1 mt-1">
                     {systemsItems.map((item, index) => (
@@ -192,20 +200,28 @@ const Header: React.FC = () => {
 
               {/* ОБОРУДОВАНИЕ */}
               <div>
-                <button
-                  onClick={() => setMobileSubmenu(mobileSubmenu === 'equipment' ? null : 'equipment')}
-                  className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
-                >
-                  <span>ОБОРУДОВАНИЕ</span>
-                  <svg
-                    className={`ml-2 h-5 w-5 transform transition-transform ${mobileSubmenu === 'equipment' ? 'rotate-180' : ''}`}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
+                <div className="flex items-center">
+                  <Link
+                    to="/оборудование-для-полива"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex-1 px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
+                    ОБОРУДОВАНИЕ
+                  </Link>
+                  <button
+                    onClick={() => setMobileSubmenu(mobileSubmenu === 'equipment' ? null : 'equipment')}
+                    className="px-3 py-2 text-gray-700 hover:text-gray-900"
+                  >
+                    <svg
+                      className={`h-5 w-5 transform transition-transform ${mobileSubmenu === 'equipment' ? 'rotate-180' : ''}`}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
                 {mobileSubmenu === 'equipment' && (
                   <div className="pl-4 space-y-1 mt-1">
                     {equipmentItems.map((item, index) => (
