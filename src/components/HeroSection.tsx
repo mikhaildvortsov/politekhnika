@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           <div className="text-white text-center lg:text-left mb-8 lg:mb-0">
             <AnimatedElement animationType="fade-up" delay={200}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                Контроллеры для автополива
+                WI-FI Контроллеры для автополива
               </h1>
             </AnimatedElement>
             
@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
 
             <AnimatedElement animationType="fade-up" delay={600}>
               <p className="text-base md:text-lg mb-8 leading-relaxed">
-                Контроллеры для автополива с мобильным приложением имеют огромное количество функций, таких как: настройка графика полива, настройка зон полива, задержка полива и многие другие
+                Управляйте Вашим поливом из любой точки Мира. Все, что Вам нужно – на экране Вашего телефона. Неограниченный функционал. Любые настройки. Множество надстроек и датчиков! Обратная связь и отчеты о работе системы. И все это по ценам аналоговых контроллеров
               </p>
             </AnimatedElement>
 
