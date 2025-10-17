@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
-          <div className="text-white mb-8 lg:mb-0">
+          <div className="text-white text-center lg:text-left mb-8 lg:mb-0">
             <AnimatedElement animationType="fade-up" delay={200}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                 Контроллеры для автополива
@@ -50,11 +50,11 @@ const HeroSection: React.FC = () => {
 
           {/* Mobile App Image */}
           <AnimatedElement animationType="fade-left" delay={400}>
-            <div className="flex justify-center lg:justify-end lg:translate-y-[120px] lg:translate-x-[100px]">
+            <div className="hidden lg:flex justify-end lg:translate-y-[120px] lg:translate-x-[100px]">
               <img 
                 src="/images/photos/phone1.png" 
                 alt="Мобильное приложение управления поливом" 
-                className="w-full max-w-xs md:max-w-md lg:max-w-full h-auto object-contain drop-shadow-2xl lg:scale-125"
+                className="w-full h-auto object-contain drop-shadow-2xl lg:scale-125"
               />
             </div>
           </AnimatedElement>
