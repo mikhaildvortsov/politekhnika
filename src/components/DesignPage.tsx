@@ -4,16 +4,11 @@ import AnimatedElement from './AnimatedElement';
 const DesignPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      {/* Hero Section with Background Image */}
-      <div 
-        className="relative h-96 bg-cover bg-center"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/photos/ukladka.jpg')`
-        }}
-      >
-        <div className="absolute inset-0 flex items-center justify-center">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-b from-green-50 to-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold text-white text-center px-4 uppercase tracking-wide">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 text-center uppercase tracking-wide">
               Проектирование систем автополива
             </h1>
           </AnimatedElement>
