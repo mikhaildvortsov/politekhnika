@@ -65,7 +65,7 @@ const CatalogSection: React.FC = () => {
                     <img 
                       src={item.image} 
                       alt={item.title}
-                      className={`w-full h-full object-contain ${index === 0 ? 'scale-150 -translate-x-16' : ''}`}
+                      className={`w-full h-full object-contain ${index === 0 ? 'scale-150 translate-x-16' : ''}`}
                     />
                   </div>
                   
