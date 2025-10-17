@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
               <img 
                 src="/images/photos/phone1.png" 
                 alt="Мобильное приложение управления поливом" 
-                className="w-full h-auto object-contain drop-shadow-2xl lg:scale-150"
+                className="w-full h-auto object-contain drop-shadow-2xl lg:scale-125"
               />
             </div>
           </AnimatedElement>
