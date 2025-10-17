@@ -123,6 +123,7 @@ const Header: React.FC = () => {
               </div>
             </div>
 
+            <Link to="/проектирование-и-монтаж-автополива" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА</Link>
             <Link to="/рулонные-газоны-из-московских-питомн" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ГАЗОН</Link>
             <a href="#works" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">НАШИ РАБОТЫ</a>
           </nav>
@@ -248,6 +249,14 @@ const Header: React.FC = () => {
                   </div>
                 )}
               </div>
+
+              <Link
+                to="/проектирование-и-монтаж-автополива"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+              >
+                ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА
+              </Link>
 
               <Link
                 to="/рулонные-газоны-из-московских-питомн"
