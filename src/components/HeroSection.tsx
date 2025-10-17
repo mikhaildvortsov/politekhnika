@@ -4,7 +4,7 @@ import AnimatedElement from './AnimatedElement';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative min-h-[600px] md:h-[70vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[700px] md:min-h-[800px] xl:h-[70vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-12 items-center">
             {/* Text Content */}
-            <div className="text-white text-center xl:text-left">
+            <div className="text-white text-center xl:text-left order-2 xl:order-1">
               <AnimatedElement animationType="fade-up" delay={200}>
                 <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
                   Контроллеры для автополива
@@ -51,11 +51,11 @@ const HeroSection: React.FC = () => {
 
             {/* Mobile App Image */}
             <AnimatedElement animationType="fade-left" delay={400}>
-              <div className="hidden xl:flex justify-end xl:translate-y-[120px] xl:translate-x-[100px]">
+              <div className="flex justify-center xl:justify-end xl:translate-y-[120px] xl:translate-x-[100px] order-1 xl:order-2">
                 <img 
                   src="/images/photos/phone1.png" 
                   alt="Мобильное приложение управления поливом" 
-                  className="w-full h-auto object-contain drop-shadow-2xl xl:scale-125"
+                  className="w-full max-w-[280px] md:max-w-sm lg:max-w-md xl:max-w-full h-auto object-contain drop-shadow-2xl xl:scale-125"
                 />
               </div>
             </AnimatedElement>
