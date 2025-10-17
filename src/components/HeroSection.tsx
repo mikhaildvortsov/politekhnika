@@ -4,7 +4,7 @@ import AnimatedElement from './AnimatedElement';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[600px] md:h-[70vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -16,10 +16,10 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
-          <div className="text-white">
+          <div className="text-white mb-8 lg:mb-0">
             <AnimatedElement animationType="fade-up" delay={200}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                 Контроллеры для автополива
@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
 
             <AnimatedElement animationType="scale" delay={800}>
               <Link 
-                to="/controllers" 
+                to="/контроллеры-для-автополива" 
                 className="inline-block bg-white text-green-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 Узнать больше
@@ -50,11 +50,11 @@ const HeroSection: React.FC = () => {
 
           {/* Mobile App Image */}
           <AnimatedElement animationType="fade-left" delay={400}>
-            <div className="flex justify-center lg:justify-end translate-y-[120px] translate-x-[100px]">
+            <div className="flex justify-center lg:justify-end lg:translate-y-[120px] lg:translate-x-[100px]">
               <img 
                 src="/images/photos/phone1.png" 
                 alt="Мобильное приложение управления поливом" 
-                className="w-full h-auto object-contain drop-shadow-2xl scale-125"
+                className="w-full max-w-xs md:max-w-md lg:max-w-full h-auto object-contain drop-shadow-2xl lg:scale-125"
               />
             </div>
           </AnimatedElement>
