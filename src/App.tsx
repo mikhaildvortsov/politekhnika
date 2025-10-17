@@ -2,13 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import InfoBlocksSection from './components/InfoBlocksSection';
 import PhotoCardsSection from './components/PhotoCardsSection';
 import SystemsSection from './components/SystemsSection';
 import CatalogSection from './components/CatalogSection';
 import BrandsSection from './components/BrandsSection';
-import FeaturesSection from './components/FeaturesSection';
 import SystemsPage from './components/SystemsPage';
+import DesignPage from './components/DesignPage';
 import EquipmentPage from './components/EquipmentPage';
 import HomeIrrigationPage from './components/HomeIrrigationPage';
 import LawnsPage from './components/LawnsPage';
@@ -108,18 +107,19 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/systems" element={<SystemsPage />} />
-          <Route path="/equipment" element={<EquipmentPage />} />
-          <Route path="/home-irrigation" element={<HomeIrrigationPage />} />
-          <Route path="/lawns" element={<LawnsPage />} />
-          <Route path="/business-irrigation" element={<BusinessIrrigationPage />} />
-          <Route path="/parks-irrigation" element={<ParksIrrigationPage />} />
-          <Route path="/controllers" element={<ControllersPage />} />
-          <Route path="/valves" element={<ValvesPage />} />
-          <Route path="/nozzles" element={<NozzlesPage />} />
-          <Route path="/rotors" element={<RotorsPage />} />
-          <Route path="/corpus" element={<CorpusPage />} />
-          <Route path="/mp-rotator" element={<MPRotatorPage />} />
+          <Route path="/установка-систем-автополива" element={<SystemsPage />} />
+          <Route path="/проектирование-и-монтаж-автополива" element={<DesignPage />} />
+          <Route path="/оборудование-для-полива" element={<EquipmentPage />} />
+          <Route path="/автополив-для-дома" element={<HomeIrrigationPage />} />
+          <Route path="/рулонные-газоны-из-московских-питомн" element={<LawnsPage />} />
+          <Route path="/автополив-для-бизнеса" element={<BusinessIrrigationPage />} />
+          <Route path="/автополив-для-парков-и-скверов" element={<ParksIrrigationPage />} />
+          <Route path="/контроллеры-для-автополива" element={<ControllersPage />} />
+          <Route path="/электромагнитные-клапаны-для-полива" element={<ValvesPage />} />
+          <Route path="/форсунки-сопла" element={<NozzlesPage />} />
+          <Route path="/роторные-дождеватели" element={<RotorsPage />} />
+          <Route path="/корпуса-дождевателей" element={<CorpusPage />} />
+          <Route path="/mp-rotator-ротаторные-головки" element={<MPRotatorPage />} />
         </Routes>
         <ScrollToTop />
       </div>

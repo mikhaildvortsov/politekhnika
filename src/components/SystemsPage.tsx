@@ -54,26 +54,26 @@ const SystemsPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <AnimatedElement animationType="fade-right" delay={200}>
               <div className="max-w-2xl mx-auto lg:mx-0">
-                <ul className="space-y-4">
-                <li className="flex items-start bg-green-50 p-6 rounded-xl border-l-4 border-green-600 shadow-md">
-                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">1</span>
-                  <span className="text-xl text-gray-700">Выполняется скрытое функционирование всей системы</span>
+                <ul className="space-y-3">
+                <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
+                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">1</span>
+                  <span className="text-lg text-gray-700">Выполняется скрытое функционирование всей системы</span>
                 </li>
-                <li className="flex items-start bg-green-50 p-6 rounded-xl border-l-4 border-green-600 shadow-md">
-                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">2</span>
-                  <span className="text-xl text-gray-700">Качественное орошение всего участка</span>
+                <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
+                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">2</span>
+                  <span className="text-lg text-gray-700">Качественное орошение всего участка</span>
                 </li>
-                <li className="flex items-start bg-green-50 p-6 rounded-xl border-l-4 border-green-600 shadow-md">
-                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">3</span>
-                  <span className="text-xl text-gray-700">В автополиве имеются встроенные водяные розетки</span>
+                <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
+                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">3</span>
+                  <span className="text-lg text-gray-700">В автополиве имеются встроенные водяные розетки</span>
                 </li>
-                <li className="flex items-start bg-green-50 p-6 rounded-xl border-l-4 border-green-600 shadow-md">
-                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">4</span>
-                  <span className="text-xl text-gray-700">В системах автоматического полива предусмотрен высокий уровень надежности</span>
+                <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
+                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">4</span>
+                  <span className="text-lg text-gray-700">В системах автоматического полива предусмотрен высокий уровень надежности</span>
                 </li>
-                <li className="flex items-start bg-green-50 p-6 rounded-xl border-l-4 border-green-600 shadow-md">
-                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">5</span>
-                  <span className="text-xl text-gray-700">Присутствуют дополнительные блоки, что делают работу системы еще более совершенной</span>
+                <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
+                  <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">5</span>
+                  <span className="text-lg text-gray-700">Присутствуют дополнительные блоки, что делают работу системы еще более совершенной</span>
                 </li>
               </ul>
               </div>
@@ -84,7 +84,7 @@ const SystemsPage: React.FC = () => {
                 <img
                   src="/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp"
                   alt="Контроллеры для автополива"
-                  className="w-full max-w-md h-auto rounded-2xl shadow-2xl"
+                  className="w-full max-w-3xl h-auto rounded-2xl shadow-2xl"
                 />
               </div>
             </AnimatedElement>

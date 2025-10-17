@@ -7,18 +7,18 @@ const Header: React.FC = () => {
   const [mobileSubmenu, setMobileSubmenu] = useState<string | null>(null);
 
   const systemsItems = [
-    { name: "АВТОПОЛИВ ДЛЯ ДОМА", href: "/home-irrigation" },
-    { name: "АВТОПОЛИВ ДЛЯ БИЗНЕСА", href: "/business-irrigation" },
-    { name: "АВТОПОЛИВ ДЛЯ ПАРКОВ И СКВЕРОВ", href: "/parks-irrigation" }
+    { name: "АВТОПОЛИВ ДЛЯ ДОМА", href: "/автополив-для-дома" },
+    { name: "АВТОПОЛИВ ДЛЯ БИЗНЕСА", href: "/автополив-для-бизнеса" },
+    { name: "АВТОПОЛИВ ДЛЯ ПАРКОВ И СКВЕРОВ", href: "/автополив-для-парков-и-скверов" }
   ];
 
   const equipmentItems = [
-    { name: "КОНТРОЛЛЕРЫ ДЛЯ АВТОПОЛИВА", href: "/controllers" },
-    { name: "ЭЛЕКТРОМАГНИТНЫЕ КЛАПАНЫ ДЛЯ ПОЛИВА", href: "/valves" },
-    { name: "ФОРСУНКИ. СОПЛА", href: "/nozzles" },
-    { name: "РОТОРНЫЕ ДОЖДЕВАТЕЛИ", href: "/rotors" },
-    { name: "КОРПУСА ДОЖДЕВАТЕЛЕЙ", href: "/corpus" },
-    { name: "MP ROTATOR. РОТАТОРНЫЕ ГОЛОВКИ", href: "/mp-rotator" },
+    { name: "КОНТРОЛЛЕРЫ ДЛЯ АВТОПОЛИВА", href: "/контроллеры-для-автополива" },
+    { name: "ЭЛЕКТРОМАГНИТНЫЕ КЛАПАНЫ ДЛЯ ПОЛИВА", href: "/электромагнитные-клапаны-для-полива" },
+    { name: "ФОРСУНКИ. СОПЛА", href: "/форсунки-сопла" },
+    { name: "РОТОРНЫЕ ДОЖДЕВАТЕЛИ", href: "/роторные-дождеватели" },
+    { name: "КОРПУСА ДОЖДЕВАТЕЛЕЙ", href: "/корпуса-дождевателей" },
+    { name: "MP ROTATOR. РОТАТОРНЫЕ ГОЛОВКИ", href: "/mp-rotator-ротаторные-головки" },
     { name: "КАПЕЛЬНЫЙ ПОЛИВ", href: "#drip-irrigation" },
     { name: "НАСОСНОЕ ОБОРУДОВАНИЕ", href: "#pump-equipment" },
     { name: "ЕМКОСТИ", href: "#tanks" }
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <Link 
-                to="/systems"
+                to="/установка-систем-автополива"
                 className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105 cursor-pointer"
               >
                 СИСТЕМЫ АВТОПОЛИВА
@@ -89,7 +89,7 @@ const Header: React.FC = () => {
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <Link 
-                to="/equipment"
+                to="/оборудование-для-полива"
                 className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105 cursor-pointer"
               >
                 ОБОРУДОВАНИЕ
@@ -123,7 +123,7 @@ const Header: React.FC = () => {
               </div>
             </div>
 
-            <Link to="/lawns" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ГАЗОН</Link>
+            <Link to="/рулонные-газоны-из-московских-питомн" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ГАЗОН</Link>
             <a href="#works" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">НАШИ РАБОТЫ</a>
           </nav>
 
@@ -234,7 +234,7 @@ const Header: React.FC = () => {
               </div>
 
               <Link
-                to="/lawns"
+                to="/рулонные-газоны-из-московских-питомн"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
               >

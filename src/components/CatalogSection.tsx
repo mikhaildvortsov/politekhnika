@@ -8,37 +8,37 @@ const CatalogSection: React.FC = () => {
       title: "Контроллеры для автополива",
       description: "Wi-Fi контроллеры Hunter для умного управления поливом с вашего смартфона",
       image: "/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp",
-      link: "/controllers"
+      link: "/контроллеры-для-автополива"
     },
     {
       title: "Электромагнитные клапаны",
       description: "Надежные клапаны Hunter, Rain Bird, Irritrol для управления зонами полива",
       image: "/images/photos/pgv_101g.jpg",
-      link: "/valves"
+      link: "/электромагнитные-клапаны-для-полива"
     },
     {
       title: "Дождеватели и форсунки",
       description: "Роторные и веерные дождеватели, MP Rotator для равномерного полива",
       image: "/images/photos/heads.jpg",
-      link: "/nozzles"
+      link: "/форсунки-сопла"
     },
     {
       title: "Роторные дождеватели",
       description: "Профессиональные роторные дождеватели для больших площадей",
       image: "/images/photos/rotor.jpg",
-      link: "/rotors"
+      link: "/роторные-дождеватели"
     },
     {
       title: "Корпуса дождевателей",
       description: "Выдвижные корпуса различной высоты для любых типов объектов",
       image: "/images/photos/sprinkler.jpg",
-      link: "/corpus"
+      link: "/корпуса-дождевателей"
     },
     {
       title: "MP Rotator",
       description: "Инновационные ротаторные форсунки с высокой эффективностью полива",
       image: "/images/photos/rotator.jpg",
-      link: "/mp-rotator"
+      link: "/mp-rotator-ротаторные-головки"
     }
   ];
 

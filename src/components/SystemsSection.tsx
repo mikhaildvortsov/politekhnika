@@ -23,7 +23,7 @@ const SystemsSection: React.FC = () => {
           <div className="bg-white rounded-3xl p-4 md:p-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Дом */}
-            <Link to="/home-irrigation" className="text-center group cursor-pointer">
+            <Link to="/автополив-для-дома" className="text-center group cursor-pointer">
               <div className="relative bg-gradient-to-br from-green-100 to-green-200 rounded-lg h-48 md:h-64 mb-4 md:mb-6 flex items-center justify-center overflow-hidden transition-all duration-500 ease-out group-hover:shadow-xl">
                 <img 
                   src="/images/photos/house.jpg" 
@@ -40,7 +40,7 @@ const SystemsSection: React.FC = () => {
             </Link>
             
             {/* Бизнес */}
-            <Link to="/business-irrigation" className="text-center group cursor-pointer">
+            <Link to="/автополив-для-бизнеса" className="text-center group cursor-pointer">
               <div className="relative bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg h-64 mb-6 flex items-center justify-center overflow-hidden transition-all duration-500 ease-out group-hover:shadow-xl">
                 <img 
                   src="/images/photos/business.jpg" 
@@ -57,7 +57,7 @@ const SystemsSection: React.FC = () => {
             </Link>
             
             {/* Парки и скверы */}
-            <Link to="/parks-irrigation" className="text-center group cursor-pointer">
+            <Link to="/автополив-для-парков-и-скверов" className="text-center group cursor-pointer">
               <div className="relative bg-gradient-to-br from-green-100 to-green-200 rounded-lg h-48 md:h-64 mb-4 md:mb-6 flex items-center justify-center overflow-hidden transition-all duration-500 ease-out group-hover:shadow-xl">
                 <img 
                   src="/images/photos/park.jpg" 
