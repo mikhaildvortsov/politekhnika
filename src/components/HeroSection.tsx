@@ -18,9 +18,9 @@ const HeroSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 w-full h-full flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-12 items-center">
             {/* Text Content */}
-            <div className="text-white text-center lg:text-left">
+            <div className="text-white text-center xl:text-left">
               <AnimatedElement animationType="fade-up" delay={200}>
                 <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
                   Контроллеры для автополива
@@ -51,11 +51,11 @@ const HeroSection: React.FC = () => {
 
             {/* Mobile App Image */}
             <AnimatedElement animationType="fade-left" delay={400}>
-              <div className="hidden lg:flex justify-end lg:translate-y-[120px] lg:translate-x-[100px]">
+              <div className="hidden xl:flex justify-end xl:translate-y-[120px] xl:translate-x-[100px]">
                 <img 
                   src="/images/photos/phone1.png" 
                   alt="Мобильное приложение управления поливом" 
-                  className="w-full h-auto object-contain drop-shadow-2xl scale-125"
+                  className="w-full h-auto object-contain drop-shadow-2xl xl:scale-125"
                 />
               </div>
             </AnimatedElement>
