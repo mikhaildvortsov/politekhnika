@@ -210,29 +210,6 @@ const CorpusPage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-green-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">О НАС</h3>
-              <p className="text-sm leading-relaxed">
-                ООО «Политехника» — динамично развивающееся предприятие в г. Волжский.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">КОНТАКТЫ</h3>
-              <p className="text-sm">г. Волжский, Фонтанная, 6</p>
-              <p className="text-sm">8-987-641-78-68</p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">ПОЛЕЗНОЕ</h3>
-              <p className="text-sm">СОВЕТЫ ПО ПРОЕКТИРОВАНИЮ</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
