@@ -33,9 +33,8 @@ const SystemsSection: React.FC = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500 ease-out rounded-lg"></div>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-polyteknika-green">Системы автополива для частных домов</h3>
-              <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-gray-700">
-                Защитите ваш газон знойным Волгоградским летом, по самой доступной цене в Волгограде и области. 
-                Узнайте примерную стоимость установки систем автополива, а также посмотрите последние работы из нашего портфолио.
+              <p className="text-sm md:text-base text-gray-500 italic transition-colors duration-300 ease-out group-hover:text-gray-600">
+                Автоматический полив для участков от 200 до нескольких тысяч кв. м.
               </p>
             </Link>
             
@@ -50,9 +49,8 @@ const SystemsSection: React.FC = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500 ease-out rounded-lg"></div>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-polyteknika-green">Системы автополива для домов отдыха и офисных зданий</h3>
-              <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-gray-700">
-                Сделаем ваш фасад самым зеленым и запоминающимся в Волгограде. 
-                Профессиональный подход к озеленению коммерческих объектов с гарантией качества и долговечности.
+              <p className="text-sm md:text-base text-gray-500 italic transition-colors duration-300 ease-out group-hover:text-gray-600">
+                Автоматический полив для Офисных зданий, промышленных предприятий, больничных комплексов и баз отдыха
               </p>
             </Link>
             
@@ -67,10 +65,8 @@ const SystemsSection: React.FC = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500 ease-out rounded-lg"></div>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-polyteknika-green">Системы автополива для парков и скверов</h3>
-              <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4 transition-colors duration-300 ease-out group-hover:text-gray-700">
-                Мы выполняли такие проекты как установка системы капельного полива в парке Сокольники, г. Москва, 
-                установка системы автоматического полива на учебной базе академии МВД, г. Волгоград, 
-                санаторий Министерства Обороны, Крым и другие.
+              <p className="text-sm md:text-base text-gray-500 italic transition-colors duration-300 ease-out group-hover:text-gray-600">
+                Автоматический полив для крупного городского объекта - серьезная задача даже для опытной команды. И мы знаем, как найти к ней решение.
               </p>
             </Link>
             </div>

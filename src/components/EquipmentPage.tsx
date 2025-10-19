@@ -50,17 +50,17 @@ const EquipmentPage: React.FC = () => {
     {
       id: 7,
       name: 'Оборудование капельного полива',
-      image: '/images/photos/bladnannya-dlya.jpg'
+      image: '/images/photos/Airbrush-Image-Enhancer-1760781774584.jpg'
     },
     {
       id: 8,
       name: 'Насосное оборудование, насосные станции для автополива',
-      image: '/images/photos/pro_van10.jpg'
+      image: '/images/photos/nasos_oborud.jpeg'
     },
     {
       id: 9,
       name: 'Емкости полимерные (полиэтиленовые, полипропиленовые)',
-      image: '/images/photos/d15.jpg'
+      image: '/images/photos/container.webp'
     }
   ];
 
@@ -107,6 +107,7 @@ const EquipmentPage: React.FC = () => {
                           src={item.image}
                           alt={item.name}
                           className="w-full h-full object-contain"
+                          style={item.id === 1 ? { transform: 'scale(1.6) translateX(15%)' } : undefined}
                         />
                       </div>
                       <div className="p-6 flex-grow flex items-center justify-center">

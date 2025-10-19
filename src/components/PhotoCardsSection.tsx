@@ -6,7 +6,7 @@ const PhotoCardsSection: React.FC = () => {
   const cards = [
     {
       title: "Проектирование систем автополива",
-      image: "/images/photos/architect_hands.jpg",
+      image: "/images/photos/architect.jpeg",
       link: "/проектирование-и-монтаж-автополива"
     },
     {

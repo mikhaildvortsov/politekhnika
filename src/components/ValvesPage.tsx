@@ -11,20 +11,34 @@ const ValvesPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      {/* Hero Section with Background */}
+      <section className="relative">
+        <div className="relative h-96 md:h-[32rem] overflow-hidden">
+          <img
+            src="/images/photos/electromagn1.jpg"
+            alt="Электромагнитные клапаны для полива"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center 30%' }}
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <AnimatedElement animationType="fade-up" delay={200}>
+              <div className="text-center text-white px-4">
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                  ЭЛЕКТРОМАГНИТНЫЕ КЛАПАНЫ ДЛЯ ПОЛИВА
+                </h1>
+                <p className="text-lg md:text-xl font-light">
+                  HUNTER • RAIN BIRD • IRRITROL • TORO
+                </p>
+              </div>
+            </AnimatedElement>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedElement animationType="fade-up" delay={100}>
-            <h1 className="text-4xl md:text-5xl font-bold text-green-700 mb-8 text-center">
-              Электромагнитные клапаны для полива
-            </h1>
-          </AnimatedElement>
-
-          <AnimatedElement animationType="fade-up" delay={200}>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-12 text-center">
-              HUNTER • RAIN BIRD • IRRITROL • TORO
-            </h2>
-          </AnimatedElement>
 
           <AnimatedElement animationType="fade-up" delay={300}>
             <div className="max-w-4xl mx-auto space-y-6">
