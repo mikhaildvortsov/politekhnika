@@ -73,7 +73,10 @@ const HomeIrrigationPage: React.FC = () => {
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
               <p className="text-xl text-gray-700 leading-relaxed">
-                Ваш дом - Ваше пространство. Переезжая из города, мы стремимся совместить комфортную жизнь с близостью к Природе. Рядом с собой мы хотим видеть живые цветы, меняющие цвет листья деревьев, ходить с детьми босиком по только что скошенному газону. Прекрасно и просто. Установить систему автоматического полива для участков площадью до нескольких тысяч кв.м. для нас очень просто. Потому что за 16 лет существования компании мы создали сотни таких работающих систем полива по всей стране. Мы Простое кладем в основу Прекрасного.
+                Ваш дом, Ваше пространство. Переезжая из города, мы стремимся совместить комфортную жизнь с близостью к Природе. Рядом с собой мы хотим видеть живые цветы, меняющие цвет листья деревьев, ходить с детьми босиком по только что скошенному газону. Прекрасно и просто.
+              </p>
+              <p className="text-xl text-gray-700 leading-relaxed">
+                Установить систему автоматического полива для участков площадью до нескольких тысяч кв.м. для нас очень просто. Потому что за 16 лет существования компании мы создали сотни таких работающих систем полива по всей стране. Мы кладем простое в основу Прекрасного.
               </p>
             </div>
           </AnimatedElement>
@@ -91,7 +94,7 @@ const HomeIrrigationPage: React.FC = () => {
 
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 В современном мире система автополива уже является не роскошью, а повседневной необходимостью. Решив заказать у нас систему автоматического полива, Вы обязательно оцените ее преимущества.
               </p>
               
@@ -104,7 +107,7 @@ const HomeIrrigationPage: React.FC = () => {
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-700">
+                  <span className="text-xl text-gray-700">
                     Значительная экономия собственного времени, так как сильно снижаются трудозатраты
                   </span>
                 </li>
@@ -112,7 +115,7 @@ const HomeIrrigationPage: React.FC = () => {
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-700">
+                  <span className="text-xl text-gray-700">
                     Снижаются затраты воды и электроэнергии
                   </span>
                 </li>
@@ -120,7 +123,7 @@ const HomeIrrigationPage: React.FC = () => {
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-700">
+                  <span className="text-xl text-gray-700">
                     Производится полный и постоянный контроль над процессом автоматического полива
                   </span>
                 </li>
@@ -128,7 +131,7 @@ const HomeIrrigationPage: React.FC = () => {
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-700">
+                  <span className="text-xl text-gray-700">
                     Система способна работать самостоятельно, без дополнительного вмешательства человека
                   </span>
                 </li>
@@ -136,7 +139,7 @@ const HomeIrrigationPage: React.FC = () => {
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-700">
+                  <span className="text-xl text-gray-700">
                     Автополив имеет множество плюсов, т.к. можно качественно оросить весь участок и достать даже до самых отдаленных растений
                   </span>
                 </li>

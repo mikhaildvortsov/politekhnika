@@ -37,39 +37,112 @@ const DesignPage: React.FC = () => {
               {/* Text Content */}
               <div className="space-y-6">
                 <p className="text-xl leading-relaxed text-gray-700">
-                  С каждым годом число желающих установить на участке автоматическую систему полива растет. 
-                  И это не только владельцы частных домов и дач, но и корпоративные застройщики, которым 
-                  выгодна эффективная организация полива зеленых насаждений и газона.
+                  Если Вы зашли на эту страницу, то, в большинстве случаев, Вы либо заказчик, либо застройщик крупного объекта с целью определения бюджета на озеленение прилегающих к объекту территорий.
                 </p>
                 
                 <p className="text-xl leading-relaxed text-gray-700">
-                  Такой ажиотаж вызван, в первую очередь, постепенным снижением цен на оборудование для 
-                  системы автополива, которые тянут за собой уменьшение стоимости проекта системы полива 
-                  в целом. Система автополива экономит финансовые средства за счет оптимизации (по сравнению 
-                  с ручным поливом) потребления энергии и воды, а также обеспечивает полноценный равномерный 
-                  полив без пересыхания и переувлажнения. Главное – правильно сделать проект и настроить 
-                  систему полива, и растения всегда будут радовать глаз своим цветущим видом.
+                  Нередки случаи, когда у Вас уже есть проект, но Вас смущает сумма и Вам нужно альтернативное предложение.
+                </p>
+
+                <h3 className="text-3xl md:text-4xl font-bold text-green-700 mt-6">Вы по адресу</h3>
+                
+                <p className="text-xl leading-relaxed text-gray-700">
+                  Проектирование систем автоматического полива на больших площадях и промышленных объектах требует времени – от недели до трех – и значительного количества согласований. В результате мы гарантируем, что Вы получите максимально проработанный проект и смету. Более того – наличие собственной техники, обученного персонала и огромного опыта обеспечат проведение монтажных работ в самые сжатые сроки. По окончании которых мы передадим Вам полный комплект исполнительной документации.
                 </p>
               </div>
 
               {/* Image - Project */}
-              <div className="lg:sticky lg:top-8 mt-16">
+              <div className="lg:sticky lg:top-8 mt-24">
                 <img 
-                  src="/images/photos/project2.jpeg" 
+                  src="/images/photos/5.jpg" 
                   alt="Проектирование систем автополива" 
                   className="w-full rounded-xl shadow-lg"
                 />
               </div>
             </div>
 
-            {/* Image Section - Base */}
+            {/* Project Details Section with Image and Text */}
             <div className="my-12">
-              <img 
-                src="/images/photos/ukladka.jpg" 
-                alt="База отдыха Лотос" 
-                className="w-full rounded-xl shadow-lg"
-              />
-              <p className="text-center text-gray-600 italic mt-3 text-lg">База отдыха Лотос</p>
+              {/* First Row: Image and First Block */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                {/* Image - Plan */}
+                <div className="mt-[30px]">
+                  <img 
+                    src="/images/photos/plan.png" 
+                    alt="План системы автополива" 
+                    className="w-full rounded-xl shadow-lg"
+                  />
+                </div>
+
+                {/* First Text Block */}
+                <div>
+                  <h3 className="text-2xl font-bold text-green-700 mb-6">Что необходимо для начала работ по проектированию:</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                      <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">1</span>
+                      <span className="text-xl text-gray-700">Тех.задание с указанием площади и границ озеленения</span>
+                    </div>
+                    <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                      <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">2</span>
+                      <span className="text-xl text-gray-700">Тех.условия на подключение к сетям водоснабжения</span>
+                    </div>
+                    <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                      <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">3</span>
+                      <span className="text-xl text-gray-700">Дендроплан, с указанием количества и номенклатуры зеленых насаждений. (в любом формате)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Second Block - Full Width */}
+              <div className="mb-8">
+                <h3 className="text-2xl font-bold text-green-700 mb-6">В итоге вы получаете проект со следующими разделами:</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">1</span>
+                    <span className="text-xl text-gray-700">Общие данные – описание структуры системы автоматического полива, типов полива, наличие накопительных резервуаров, насосных, расчет суточного водопотребления.</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">2</span>
+                    <span className="text-xl text-gray-700">Гидравлический расчет, расчет диаметров труб по каждой линии, расчет характеристик насосных станций и подбор насосов.</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">3</span>
+                    <span className="text-xl text-gray-700">Выбор типов дождевателей с указанием радиусов, секторов полива и удельного расхода воды.</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">4</span>
+                    <span className="text-xl text-gray-700">Описание системы управления автоматическим поливом с выбором контроллера(ов) расчет протяженности и сечения кабелей управления – слаботочная система – 24В</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">5</span>
+                    <span className="text-xl text-gray-700">Рекомендации по обслуживанию и сезонным работам</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">6</span>
+                    <span className="text-xl text-gray-700">Смета</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Third Block - Full Width */}
+              <div>
+                <h3 className="text-2xl font-bold text-green-700 mb-6">Графическая часть:</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">1</span>
+                    <span className="text-xl text-gray-700">Трассировка канальных трубопроводов с расстановкой дождевателей и детализировкой основных узлов и оборудования</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">2</span>
+                    <span className="text-xl text-gray-700">Трассировка магистрального трубопровода с расстановкой электромагнитных клапанов управления.</span>
+                  </div>
+                  <div className="flex items-start border-l-4 border-green-600 bg-green-50 p-6 rounded-xl shadow-md">
+                    <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-4 font-bold">3</span>
+                    <span className="text-xl text-gray-700">Слаботочная система управления клапанами</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <p className="text-xl leading-relaxed text-gray-700 mt-6">
@@ -96,4 +169,5 @@ const DesignPage: React.FC = () => {
 };
 
 export default DesignPage;
+
 

@@ -15,37 +15,37 @@ const EquipmentPage: React.FC = () => {
       id: 1,
       name: 'Контроллеры для автополива',
       image: '/images/photos/avtopoliv-hunter-pro-hc-wi-fi-1.webp',
-      link: '/контроллеры-для-автополива'
+      link: '/оборудование-для-полива/контроллеры-для-автополива/'
     },
     {
       id: 2,
       name: 'Электромагнитные клапаны для автополива',
       image: '/images/photos/pgv_101g.jpg',
-      link: '/электромагнитные-клапаны-для-полива'
+      link: '/оборудование-для-полива/электромагнитные-клапаны-для-полива/'
     },
     {
       id: 3,
       name: 'Корпус дождевателя, спринклер',
       image: '/images/photos/sprinkler.jpg',
-      link: '/корпуса-дождевателей'
+      link: '/оборудование-для-полива/корпуса-дождевателей/'
     },
     {
       id: 4,
       name: 'Ротаторные головки МР ROTATOR',
       image: '/images/photos/rotator.jpg',
-      link: '/mp-rotator-ротаторные-головки'
+      link: '/оборудование-для-полива/mp-rotator-ротаторные-головки/'
     },
     {
       id: 5,
       name: 'Статические головки фиксированные и регулируемые',
       image: '/images/photos/heads.jpg',
-      link: '/форсунки-сопла'
+      link: '/оборудование-для-полива/форсунки-сопла/'
     },
     {
       id: 6,
       name: 'Роторные дождеватели, спринклеры',
       image: '/images/photos/rotor.jpg',
-      link: '/роторные-дождеватели'
+      link: '/оборудование-для-полива/роторные-дождеватели/'
     },
     {
       id: 7,
@@ -198,4 +198,3 @@ const EquipmentPage: React.FC = () => {
 };
 
 export default EquipmentPage;
-

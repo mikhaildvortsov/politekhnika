@@ -42,19 +42,20 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/установка-систем-автополива" element={<SystemsPage />} />
+          <Route path="/установка-систем-автополива/" element={<SystemsPage />} />
+          <Route path="/установка-систем-автополива/автополив-для-дома/" element={<HomeIrrigationPage />} />
+          <Route path="/установка-систем-автополива/автополив-для-бизнеса/" element={<BusinessIrrigationPage />} />
+          <Route path="/установка-систем-автополива/автополив-для-парков-и-скверов/" element={<ParksIrrigationPage />} />
+          <Route path="/оборудование-для-полива/" element={<EquipmentPage />} />
+          <Route path="/оборудование-для-полива/контроллеры-для-автополива/" element={<ControllersPage />} />
+          <Route path="/оборудование-для-полива/электромагнитные-клапаны-для-полива/" element={<ValvesPage />} />
+          <Route path="/оборудование-для-полива/форсунки-сопла/" element={<NozzlesPage />} />
+          <Route path="/оборудование-для-полива/роторные-дождеватели/" element={<RotorsPage />} />
+          <Route path="/оборудование-для-полива/корпуса-дождевателей/" element={<CorpusPage />} />
+          <Route path="/оборудование-для-полива/mp-rotator-ротаторные-головки/" element={<MPRotatorPage />} />
+          <Route path="/полимерные-емкости-для-автополива/" element={<div>Емкости - страница в разработке</div>} />
+          <Route path="/рулонные-газоны-из-московских-питомн/" element={<LawnsPage />} />
           <Route path="/проектирование-и-монтаж-автополива" element={<DesignPage />} />
-          <Route path="/оборудование-для-полива" element={<EquipmentPage />} />
-          <Route path="/автополив-для-дома" element={<HomeIrrigationPage />} />
-          <Route path="/рулонные-газоны-из-московских-питомн" element={<LawnsPage />} />
-          <Route path="/автополив-для-бизнеса" element={<BusinessIrrigationPage />} />
-          <Route path="/автополив-для-парков-и-скверов" element={<ParksIrrigationPage />} />
-          <Route path="/контроллеры-для-автополива" element={<ControllersPage />} />
-          <Route path="/электромагнитные-клапаны-для-полива" element={<ValvesPage />} />
-          <Route path="/форсунки-сопла" element={<NozzlesPage />} />
-          <Route path="/роторные-дождеватели" element={<RotorsPage />} />
-          <Route path="/корпуса-дождевателей" element={<CorpusPage />} />
-          <Route path="/mp-rotator-ротаторные-головки" element={<MPRotatorPage />} />
         </Routes>
         <Footer />
         <ScrollToTop />
