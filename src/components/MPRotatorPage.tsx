@@ -96,7 +96,7 @@ const MPRotatorPage: React.FC = () => {
         <div className="relative h-80 md:h-96 overflow-hidden bg-white">
           <img
             src="/images/photos/rotators.jpg"
-            alt="MP Rotator. Ротаторные головки"
+            alt="Ротаторные форсунки MP Rotator"
             className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-black/40"></div>
@@ -104,7 +104,7 @@ const MPRotatorPage: React.FC = () => {
             <AnimatedElement animationType="fade-up" delay={200}>
               <div className="text-center text-white px-4">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-                  MP Rotator. Ротаторные головки
+                  Ротаторные форсунки MP Rotator
                 </h1>
               </div>
             </AnimatedElement>
@@ -119,7 +119,7 @@ const MPRotatorPage: React.FC = () => {
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
               <p className="text-xl text-gray-700 leading-relaxed">
-                Подходит к корпусу дождевателя любого производителя Hunter, Rain Bird, Irritrol, превращая его в ораситель с высоким показателем равномерности покрытия и низким расходом воды.
+                Подходит к корпусу дождевателя любого производителя Hunter, Rain Bird, Irritrol, превращая его в ороситель с высоким показателем равномерности покрытия и низким расходом воды.
               </p>
               <p className="text-xl text-gray-700 leading-relaxed font-semibold">
                 Важно: MP Rotator обеспечивает равномерное распределение осадков на любом секторе и при любом радиусе. Вода разбрызгивается медленно и равномерно, что значительно сокращает просачивание в грунт и потери.
@@ -129,55 +129,8 @@ const MPRotatorPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Двойное выталкивание */}
-            <AnimatedElement animationType="fade-up" delay={100}>
-              <div className="bg-white p-8 rounded-xl shadow-lg h-full">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Двойное выталкивание</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  MP Rotator имеет механизм, позволяющий защитить сопло от попадания внутрь загрязняющих частиц в то время, когда не осуществляется полив. Пружина сопла, более сильная, чем пружина выдвижной штанги, удерживает сопло некоторое время в сложенном положении в момент активации системы. После завершения цикла полива, функция двойного выталкивания срабатывает снова, обеспечивая защиту сопла до следующего цикла.
-                </p>
-              </div>
-            </AnimatedElement>
-
-            {/* Автоматически точная норма осадков */}
-            <AnimatedElement animationType="fade-up" delay={200}>
-              <div className="bg-white p-8 rounded-xl shadow-lg h-full">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Автоматически точная норма осадков</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  MP Rotator® обладает уникальной способностью контролировать количество воды, проходящей через сопло при различных настройках сектора и радиуса полива, обеспечивая согласованный полив вне зависимости от установленных параметров.
-                </p>
-              </div>
-            </AnimatedElement>
-
-            {/* Равномерность полива */}
-            <AnimatedElement animationType="fade-up" delay={300}>
-              <div className="bg-white p-8 rounded-xl shadow-lg h-full">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Равномерность полива</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Различные потоки дождевателя MP Rotator позволяют ему равномерно покрывать все участки ландшафта, обеспечивая равномерность распределения, значительно превышающую равномерность стандартного сопла. Каждый поток направлен на конкретные участки для достижения высокой эффективности полива и равномерного покрытия.
-                </p>
-              </div>
-            </AnimatedElement>
-
-            {/* Низкий уровень осадков */}
-            <AnimatedElement animationType="fade-up" delay={400}>
-              <div className="bg-white p-8 rounded-xl shadow-lg h-full">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Низкий уровень осадков</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Поскольку большинство видов почвы отличается скоростью впитывания менее 25 мм/ч, низкая норма полива обеспечивает его наивысшую эффективность. Стандартный дождеватель MP Rotator подает воду с нормой 10 мм/ч, а дождеватель серии SR – 20 мм/ч. Оба этих варианта позволяют избежать стока воды и предотвратить эрозию почвы.
-                </p>
-              </div>
-            </AnimatedElement>
-          </div>
-        </div>
-      </section>
-
       {/* Technical Specifications Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
             <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
@@ -219,6 +172,53 @@ const MPRotatorPage: React.FC = () => {
                 </div>
               </AnimatedElement>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Двойное выталкивание */}
+            <AnimatedElement animationType="fade-right" delay={100}>
+              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg h-full border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Двойное выталкивание</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  MP Rotator имеет механизм, позволяющий защитить сопло от попадания внутрь загрязняющих частиц в то время, когда не осуществляется полив. Пружина сопла, более сильная, чем пружина выдвижной штанги, удерживает сопло некоторое время в сложенном положении в момент активации системы. После завершения цикла полива функция двойного выталкивания срабатывает снова, обеспечивая защиту сопла до следующего цикла.
+                </p>
+              </div>
+            </AnimatedElement>
+
+            {/* Автоматически точная норма осадков */}
+            <AnimatedElement animationType="fade-left" delay={200}>
+              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg h-full border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Автоматически точная норма осадков</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  MP Rotator обладает уникальной способностью контролировать количество воды, проходящей через сопло при различных настройках сектора и радиуса полива, обеспечивая согласованный полив вне зависимости от установленных параметров.
+                </p>
+              </div>
+            </AnimatedElement>
+
+            {/* Равномерность полива */}
+            <AnimatedElement animationType="fade-right" delay={300}>
+              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg h-full border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Равномерность полива</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  Различные потоки дождевателя MP Rotator позволяют ему равномерно покрывать все участки ландшафта, обеспечивая равномерность распределения, значительно превышающую равномерность стандартного сопла. Каждый поток направлен на конкретные участки для достижения высокой эффективности полива и равномерного покрытия.
+                </p>
+              </div>
+            </AnimatedElement>
+
+            {/* Низкий уровень осадков */}
+            <AnimatedElement animationType="fade-left" delay={400}>
+              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg h-full border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Низкий уровень осадков</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  Поскольку большинство видов почвы отличается скоростью впитывания менее 25 мм/ч, низкая норма полива обеспечивает его наивысшую эффективность. Стандартный дождеватель MP Rotator подает воду с нормой 10 мм/ч, а дождеватель серии SR – 20 мм/ч. Оба этих варианта позволяют избежать стока воды и предотвратить эрозию почвы.
+                </p>
+              </div>
+            </AnimatedElement>
           </div>
         </div>
       </section>

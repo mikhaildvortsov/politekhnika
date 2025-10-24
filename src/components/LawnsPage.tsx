@@ -144,7 +144,7 @@ const LawnsPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <AnimatedElement animationType="fade-up" delay={200}>
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl shadow-lg h-full flex items-center">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Время от заключения договора до укладки готового газона от 2х суток
                 </p>
@@ -152,7 +152,7 @@ const LawnsPage: React.FC = () => {
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-up" delay={250}>
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl shadow-lg h-full flex items-center">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Не требует капитальных земельных работ
                 </p>
@@ -160,7 +160,7 @@ const LawnsPage: React.FC = () => {
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-up" delay={300}>
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl shadow-lg h-full flex items-center">
                 <p className="text-lg text-gray-700 leading-relaxed font-semibold text-green-700">
                   Стоимость газона вместе с укладкой 250 – 350 руб/м²!
                 </p>
@@ -168,7 +168,7 @@ const LawnsPage: React.FC = () => {
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-up" delay={350}>
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl shadow-lg h-full flex items-center">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Продажа и укладка производится с конца апреля до ноября
                 </p>

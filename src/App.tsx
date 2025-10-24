@@ -20,6 +20,13 @@ import NozzlesPage from './components/NozzlesPage';
 import RotorsPage from './components/RotorsPage';
 import CorpusPage from './components/CorpusPage';
 import MPRotatorPage from './components/MPRotatorPage';
+import ProjectingAdvicePage from './components/ProjectingAdvicePage';
+import Stage1GeometryPage from './components/Stage1GeometryPage';
+import Stage2WaterSupplyPage from './components/Stage2WaterSupplyPage';
+import Stage3AgronomyPage from './components/Stage3AgronomyPage';
+import Stage4SprinklersPage from './components/Stage4SprinklersPage';
+import Stage5DistributionPage from './components/Stage5DistributionPage';
+import Stage6HydraulicPage from './components/Stage6HydraulicPage';
 import SmoothScroll from './components/SmoothScroll';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -56,6 +63,13 @@ function App() {
           <Route path="/полимерные-емкости-для-автополива/" element={<div>Емкости - страница в разработке</div>} />
           <Route path="/рулонные-газоны-из-московских-питомн/" element={<LawnsPage />} />
           <Route path="/проектирование-и-монтаж-автополива" element={<DesignPage />} />
+          <Route path="/советы-по-проектированию" element={<ProjectingAdvicePage />} />
+          <Route path="/советы-по-проектированию/этап-1-геометрия-участка/" element={<Stage1GeometryPage />} />
+          <Route path="/советы-по-проектированию/этап-2-источник-водоснабжения/" element={<Stage2WaterSupplyPage />} />
+          <Route path="/советы-по-проектированию/этап-3-агрономия-география-климат/" element={<Stage3AgronomyPage />} />
+          <Route path="/советы-по-проектированию/этап-4-выбор-типа-дождевателей/" element={<Stage4SprinklersPage />} />
+          <Route path="/советы-по-проектированию/этап-5-распределение-дождевателей/" element={<Stage5DistributionPage />} />
+          <Route path="/советы-по-проектированию/этап-6-гидравлический-расчет/" element={<Stage6HydraulicPage />} />
         </Routes>
         <Footer />
         <ScrollToTop />

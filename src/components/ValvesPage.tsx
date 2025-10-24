@@ -40,23 +40,52 @@ const ValvesPage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <AnimatedElement animationType="fade-up" delay={300}>
-            <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Внешняя и внутренняя резьба 3/4"(дюйма), 1"(дюйм), 1 1/4"(дюйма), 2"(дюйма), 3"(дюйма).
-              </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Конфигурация прямоточная или угловая.
-              </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Корпус и крышка выполнены из полиамида, армированного стекловолокном (30%).
-              </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Серия F и M - это клапаны полной линейки размеров, которые очень просты в установке и использовании.
-              </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Исторический диапазон для Irritrol, который всегда гарантировал высокую производительность и надежность.
-              </p>
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+            <AnimatedElement animationType="fade-up" delay={300}>
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Размеры резьбы</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Внешняя и внутренняя резьба <span className="font-bold text-green-700">1"</span>, <span className="font-bold text-green-700">1 1/2"</span>, <span className="font-bold text-green-700">2"</span>, <span className="font-bold text-green-700">3"</span>
+                </p>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animationType="fade-up" delay={350}>
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Конфигурация</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Конфигурация <span className="font-semibold text-green-700">прямоточная</span> или <span className="font-semibold text-green-700">угловая</span>
+                </p>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animationType="fade-up" delay={400}>
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Материал</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Надежный корпус и крышка выполнены из <span className="font-semibold text-green-700">полиамида</span>, армированного стекловолокном <span className="font-bold text-green-700">(30%)</span>
+                </p>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animationType="fade-up" delay={450}>
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Серия F и M</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Серия F и M - это клапаны полной линейки размеров, которые <span className="font-semibold text-green-700">очень просты</span> в установке и использовании
+                </p>
+              </div>
+            </AnimatedElement>
+          </div>
+
+          <AnimatedElement animationType="fade-up" delay={500}>
+            <div className="max-w-5xl mx-auto mt-8">
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Наша рекомендация</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Мы используем сами и рекомендуем нашим клиентам использовать электромагнитные клапаны <span className="font-bold text-green-700">HUNTER</span>, которые за многие годы только подтверждают свою высокую производительность и надежность.
+                </p>
+              </div>
             </div>
           </AnimatedElement>
 
@@ -112,11 +141,11 @@ const ValvesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Быстрая очистка</span>
+                    <span>Простота в монтаже и использовании</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Простота в использовании</span>
+                    <span>Быстрая очистка</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
@@ -124,7 +153,7 @@ const ValvesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Эффективная система фильтрации</span>
+                    <span>Конкурентная цена</span>
                   </li>
                 </ul>
               </div>
@@ -140,7 +169,7 @@ const ValvesPage: React.FC = () => {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Резьба: 3/4", 1", 1 1/4", 2", 3"</span>
+                    <span>Резьба: 1", 1 1/2", 2", 3"</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
@@ -148,11 +177,11 @@ const ValvesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Напряжение: 24V AC</span>
+                    <span>Напряжение: 24V AC ток 0,3 А</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>Потребление: 0,3 А</span>
+                    <span>Напряжение 9V DC для автономных контроллеров</span>
                   </li>
                 </ul>
               </div>
@@ -176,11 +205,15 @@ const ValvesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>С регулятором давления</span>
+                    <span>С регулятором потока</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
                     <span>Различные размеры резьбы</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span>Возможность выбора по напряжению солиноида</span>
                   </li>
                 </ul>
               </div>
@@ -198,8 +231,7 @@ const ValvesPage: React.FC = () => {
                   <p><strong>F</strong> - Внутренняя резьба</p>
                   <p><strong>M</strong> - Наружная резьба</p>
                   <p><strong>100</strong> - 1"</p>
-                  <p><strong>075</strong> - 3/4"</p>
-                  <p><strong>GB</strong> - С регулятором давления</p>
+                  <p><strong>GB</strong> - С регулятором потока</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -218,36 +250,36 @@ const ValvesPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <AnimatedElement animationType="fade-right" delay={200}>
-              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Надежность и долговечность</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed flex-grow">
                   Клапаны изготовлены из высококачественных материалов, устойчивых к коррозии и воздействию химикатов. Срок службы составляет более 10 лет при правильной эксплуатации.
                 </p>
               </div>
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-left" delay={300}>
-              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Экономия воды и энергии</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed flex-grow">
                   Точное управление подачей воды позволяет снизить расход на 30-40%. Низкое энергопотребление соленоида обеспечивает минимальные эксплуатационные затраты.
                 </p>
               </div>
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-right" delay={400}>
-              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Простота установки и обслуживания</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed flex-grow">
                   Клапаны легко устанавливаются в любую систему полива. Быстрая очистка фильтра и замена диафрагмы без специальных инструментов занимает всего несколько минут.
                 </p>
               </div>
             </AnimatedElement>
 
             <AnimatedElement animationType="fade-left" delay={500}>
-              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Работа с загрязненной водой</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed flex-grow">
                   Эффективная система фильтрации и большой проходной канал позволяют клапанам стабильно работать даже с водой, содержащей механические примеси.
                 </p>
               </div>
@@ -260,61 +292,105 @@ const ValvesPage: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
-            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
               Рекомендации по выбору и установке
             </h2>
           </AnimatedElement>
 
-          <div className="max-w-4xl mx-auto">
-            <AnimatedElement animationType="fade-up" delay={200}>
-              <div className="bg-white rounded-2xl shadow-xl p-8 space-y-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Выбор размера клапана</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                    Размер клапана должен соответствовать диаметру магистральной трубы и обеспечивать необходимый расход воды:
-                  </p>
-                  <ul className="space-y-2 text-gray-700 ml-6">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">•</span>
-                      <span><strong>3/4"</strong> - для небольших зон до 6 дождевателей</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">•</span>
-                      <span><strong>1"</strong> - для средних зон 6-12 дождевателей</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">•</span>
-                      <span><strong>1 1/4" и больше</strong> - для крупных зон и высокого расхода</span>
-                    </li>
-                  </ul>
-                </div>
+          <div className="max-w-6xl mx-auto space-y-8">
+            <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <AnimatedElement animationType="fade-up" delay={100}>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Выбор размера клапана</h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Размер клапана должен соответствовать диаметру магистральной трубы и обеспечивать необходимую пропускную способность
+                </p>
+              </AnimatedElement>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <AnimatedElement animationType="fade-right" delay={150}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="text-3xl font-bold text-green-700 mb-2">1"</div>
+                    <p className="text-gray-700">
+                      Для средних зон 6-12 дождевателей с удельным расходом воды до <span className="font-bold text-green-700">6м3/час</span>
+                    </p>
+                  </div>
+                </AnimatedElement>
+                <AnimatedElement animationType="fade-left" delay={200}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="text-3xl font-bold text-green-700 mb-2">1 1/2" и больше</div>
+                    <p className="text-gray-700">
+                      Для систем с большими зонами и высоким расходом – свыше <span className="font-bold text-green-700">8 м3/час</span>
+                    </p>
+                  </div>
+                </AnimatedElement>
+              </div>
+            </div>
 
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Правила установки</h3>
-                  <ul className="space-y-3 text-lg text-gray-700">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">1.</span>
-                      <span>Устанавливайте клапаны в защищенных коробах для предотвращения замерзания зимой</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">2.</span>
-                      <span>Соблюдайте направление потока воды (указано стрелкой на корпусе)</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">3.</span>
-                      <span>Обеспечьте доступ к клапану для обслуживания и настройки</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">4.</span>
-                      <span>Используйте качественную проводку 24V для подключения к контроллеру</span>
-                    </li>
-                  </ul>
-                </div>
+            <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+              <AnimatedElement animationType="fade-up" delay={250}>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Правила установки</h3>
+              </AnimatedElement>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <AnimatedElement animationType="fade-right" delay={300}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        1
+                      </div>
+                      <p className="text-gray-700 pt-1">
+                        Устанавливайте клапаны в защищенных коробах для предотвращения попадания грунта, грязи и воды
+                      </p>
+                    </div>
+                  </div>
+                </AnimatedElement>
+                <AnimatedElement animationType="fade-left" delay={350}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        2
+                      </div>
+                      <p className="text-gray-700 pt-1">
+                        Соблюдайте направление потока воды (указано стрелкой на корпусе)
+                      </p>
+                    </div>
+                  </div>
+                </AnimatedElement>
+                <AnimatedElement animationType="fade-right" delay={400}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        3
+                      </div>
+                      <p className="text-gray-700 pt-1">
+                        Обеспечьте доступ к клапану для обслуживания и настройки
+                      </p>
+                    </div>
+                  </div>
+                </AnimatedElement>
+                <AnimatedElement animationType="fade-left" delay={450}>
+                  <div className="bg-white rounded-xl p-6 shadow-md border border-green-100">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        4
+                      </div>
+                      <p className="text-gray-700 pt-1">
+                        Используйте качественную проводку 24V для подключения к контроллеру
+                      </p>
+                    </div>
+                  </div>
+                </AnimatedElement>
+              </div>
+            </div>
 
-                <div className="bg-green-50 p-6 rounded-xl border-l-4 border-green-600">
-                  <p className="text-lg text-gray-800 font-semibold">
-                    Совет специалиста: При установке клапанов в коробах предусмотрите дренажные отверстия для отвода конденсата и возможность слива воды из системы на зиму.
-                  </p>
+            <AnimatedElement animationType="fade-up" delay={500}>
+              <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 text-5xl">💡</div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4">Совет специалиста</h3>
+                    <p className="text-xl text-gray-700 leading-relaxed">
+                      При установке клапанов в коробах на низинных участках предусмотрите дренажные отверстия для отвода скопившейся воды.
+                    </p>
+                  </div>
                 </div>
               </div>
             </AnimatedElement>

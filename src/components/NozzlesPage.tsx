@@ -44,27 +44,43 @@ const NozzlesPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      {/* Hero Section with Background */}
+      <section className="relative">
+        <div className="relative h-96 md:h-[32rem] overflow-hidden">
+          <img
+            src="/images/photos/forsunki.jpg"
+            alt="Форсунки для полива"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center center' }}
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <AnimatedElement animationType="fade-up" delay={200}>
+              <div className="text-center text-white px-4">
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                  ФОРСУНКИ ДЛЯ СИСТЕМ ПОЛИВА
+                </h1>
+                <p className="text-lg md:text-xl font-light">
+                  HUNTER • RAIN BIRD • IRRITROL • TORO
+                </p>
+              </div>
+            </AnimatedElement>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
-            <h1 className="text-4xl md:text-5xl font-bold text-green-700 mb-8 text-center">
-              Форсунки и сопла
-            </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-12 text-center">
+              Регулируемые сопла и форсунки
+            </h2>
           </AnimatedElement>
 
           <AnimatedElement animationType="fade-up" delay={200}>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
-              Регулируемые сопла и форсунки
-            </h2>
-            <h3 className="text-xl md:text-2xl font-medium text-gray-700 mb-12 text-center">
-              HUNTER • RAIN BIRD • IRRITROL • TORO
-            </h3>
-          </AnimatedElement>
-
-          <AnimatedElement animationType="fade-up" delay={300}>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-gray-700 leading-relaxed text-center">
+              <p className="text-2xl text-gray-700 leading-relaxed text-center">
                 Подходят ко всем корпусам всех известных мировых брендов. Обеспечивают возможность регулировки сектора и радиуса полива зависимости от размеров и конфигурации участка. Незаменимы для быстрого и обильного полива.
               </p>
             </div>
@@ -127,7 +143,7 @@ const NozzlesPage: React.FC = () => {
                   <div className="w-12 h-12 bg-green-600 rounded-full flex-shrink-0"></div>
                   <h3 className="text-2xl font-bold text-gray-900">Особенности</h3>
                 </div>
-                <ul className="space-y-3 text-gray-700">
+                <ul className="space-y-3 text-lg text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
                     <span>Регулируемое веерное сопло, регулировка от 0-360 градусов</span>
@@ -168,7 +184,7 @@ const NozzlesPage: React.FC = () => {
                   <h3 className="text-2xl font-bold text-gray-900">Кодификация</h3>
                 </div>
                 <div className="p-6">
-                  <p className="text-xl text-gray-700">
+                  <p className="text-lg text-gray-700">
                     <span className="font-semibold">PRO-VANXX</span> Регулируемые сопла от 0° до 360°
                   </p>
                 </div>

@@ -16,12 +16,12 @@ const CorpusPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
             <h1 className="text-4xl md:text-5xl font-bold text-green-700 mb-12 text-center">
-              Корпуса дождевателей
+              Корпусы дождевателей
             </h1>
           </AnimatedElement>
 
           <AnimatedElement animationType="fade-up" delay={200}>
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-3xl mx-auto">
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -181,7 +181,7 @@ const CorpusPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
             <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
-              Цены на корпуса дождевателей
+              Цены на корпусы дождевателей
             </h2>
           </AnimatedElement>
 

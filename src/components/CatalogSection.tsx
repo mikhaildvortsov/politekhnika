@@ -17,7 +17,7 @@ const CatalogSection: React.FC = () => {
       link: "/оборудование-для-полива/электромагнитные-клапаны-для-полива/"
     },
     {
-      title: "Дождеватели и форсунки",
+      title: "Форсунки и сопла",
       description: "Роторные и веерные дождеватели, MP Rotator для равномерного полива",
       image: "/images/photos/heads.jpg",
       link: "/оборудование-для-полива/форсунки-сопла/"
@@ -29,15 +29,15 @@ const CatalogSection: React.FC = () => {
       link: "/оборудование-для-полива/роторные-дождеватели/"
     },
     {
-      title: "Корпуса дождевателей",
+      title: "Корпус дождевателя, спринклер",
       description: "Выдвижные корпуса различной высоты для любых типов объектов",
       image: "/images/photos/sprinkler.jpg",
       link: "/оборудование-для-полива/корпуса-дождевателей/"
     },
     {
-      title: "MP Rotator",
+      title: "Ротаторные форсунки MP Rotator",
       description: "Инновационные ротаторные форсунки с высокой эффективностью полива",
-      image: "/images/photos/rotator.jpg",
+      image: "/images/photos/mprotator.jpg",
       link: "/оборудование-для-полива/mp-rotator-ротаторные-головки/"
     }
   ];

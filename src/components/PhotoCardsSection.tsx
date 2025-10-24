@@ -6,18 +6,18 @@ const PhotoCardsSection: React.FC = () => {
   const cards = [
     {
       title: "Проектирование систем автополива",
-      image: "/images/photos/architect.jpeg",
+      image: "/images/photos/architect_hands.jpg",
       link: "/проектирование-и-монтаж-автополива"
     },
     {
       title: "Оборудование",
       image: "/images/photos/2.jpg",
-      link: "/оборудование-для-полива/"
+      link: "/оборудование-для-полива"
     },
     {
       title: "Укладка газона",
       image: "/images/photos/3.jpg",
-      link: "/рулонные-газоны-из-московских-питомн/"
+      link: "/рулонные-газоны-из-московских-питомн"
     }
   ];
 

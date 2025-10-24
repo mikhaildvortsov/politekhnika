@@ -17,8 +17,8 @@ const Header: React.FC = () => {
     { name: "ЭЛЕКТРОМАГНИТНЫЕ КЛАПАНЫ ДЛЯ ПОЛИВА", href: "/оборудование-для-полива/электромагнитные-клапаны-для-полива/" },
     { name: "ФОРСУНКИ. СОПЛА", href: "/оборудование-для-полива/форсунки-сопла/" },
     { name: "РОТОРНЫЕ ДОЖДЕВАТЕЛИ", href: "/оборудование-для-полива/роторные-дождеватели/" },
-    { name: "КОРПУСА ДОЖДЕВАТЕЛЕЙ", href: "/оборудование-для-полива/корпуса-дождевателей/" },
-    { name: "MP ROTATOR. РОТАТОРНЫЕ ГОЛОВКИ", href: "/оборудование-для-полива/mp-rotator-ротаторные-головки/" },
+    { name: "КОРПУСЫ ДОЖДЕВАТЕЛЕЙ", href: "/оборудование-для-полива/корпуса-дождевателей/" },
+    { name: "РОТАТОРНЫЕ ФОРСУНКИ MP ROTATOR", href: "/оборудование-для-полива/mp-rotator-ротаторные-головки/" },
     { name: "КАПЕЛЬНЫЙ ПОЛИВ", href: "#drip-irrigation" },
     { name: "НАСОСНОЕ ОБОРУДОВАНИЕ", href: "#pump-equipment" },
     { name: "ЕМКОСТИ", href: "/полимерные-емкости-для-автополива/" }
@@ -82,6 +82,8 @@ const Header: React.FC = () => {
               </div>
             </div>
 
+            <Link to="/проектирование-и-монтаж-автополива" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА</Link>
+
             {/* ОБОРУДОВАНИЕ с выпадающим меню */}
             <div 
               className="relative"
@@ -122,8 +124,6 @@ const Header: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            <Link to="/проектирование-и-монтаж-автополива" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА</Link>
             <Link to="/рулонные-газоны-из-московских-питомн/" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">ГАЗОН</Link>
             <a href="#works" className="text-gray-700 hover:text-gray-800 transition-all duration-300 font-light uppercase text-sm tracking-widest hover:scale-105">НАШИ РАБОТЫ</a>
           </nav>
@@ -199,6 +199,14 @@ const Header: React.FC = () => {
                 )}
               </div>
 
+              <Link
+                to="/проектирование-и-монтаж-автополива"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+              >
+                ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА
+              </Link>
+
               {/* ОБОРУДОВАНИЕ */}
               <div>
                 <div className="flex items-center">
@@ -249,14 +257,6 @@ const Header: React.FC = () => {
                   </div>
                 )}
               </div>
-
-              <Link
-                to="/проектирование-и-монтаж-автополива"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
-              >
-                ПРОЕКТИРОВАНИЕ СИСТЕМ АВТОПОЛИВА
-              </Link>
 
               <Link
                 to="/рулонные-газоны-из-московских-питомн/"
