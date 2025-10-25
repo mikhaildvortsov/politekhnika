@@ -38,11 +38,11 @@ const LawnsPage: React.FC = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-green-700">
                   Преимущества рулонного газона
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Очевидно, что ничего не может украсить территорию лучше, чем насыщенно-зеленый, яркий, ровный, ухоженный газон. Укладку газона заказывают владельцы и частных домов, и торговых предприятий, и офисов.
                 </p>
                 
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   В последние годы резко возросла актуальность рулонного газона, сейчас мы полностью изменили свои предложения в его пользу. Эта тенденция объясняется рядом преимуществ:
                 </p>
 
@@ -97,7 +97,7 @@ const LawnsPage: React.FC = () => {
                   Характеристики газона
                 </h2>
                 
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Газон в рулоне из московских питомников – это качественная посевная смесь, высокая адаптация к условиям средней полосы и Юга России и безупречное качество:
                 </p>
 
@@ -124,7 +124,7 @@ const LawnsPage: React.FC = () => {
                   </p>
                 </div>
 
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   В Волгограде рулонный газон можно приобрести <strong>с конца апреля по ноябрь</strong> в объеме от 400 м². Постелить газон стоит от <strong className="text-green-600">100 руб. за м²</strong>.
                 </p>
               </div>

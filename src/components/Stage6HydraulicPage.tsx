@@ -24,13 +24,13 @@ const Stage6HydraulicPage: React.FC = () => {
         {/* Введение */}
         <AnimatedElement animationType="fade-up" delay={150}>
           <div className="mb-10">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               <a href="/losses1.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">Полная таблица гидравлических сопротивлений (потерь) и расходов в полиэтиленовых трубах</a>.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Суть гидравлического расчета состоит в подборе условий, при которых самый отдаленный потребитель с наименьшими потерями и при минимальной стоимости трубопровода получает необходимое количество воды под необходимым давлением. Это значит, что при гидравлическом расчете принимается во внимание не общая длина трубопровода, а максимальное прямое расстояние (без ответвлений), которое проходит вода от источника водоснабжения до самого отдаленного дождевателя. Эту длину мы назовем L<sub>max</sub>.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed">
               При выборе диаметра труб мы будем иметь ограничивающие нас предельные состояния, между которыми и будет находиться оптимальное решение.
             </p>
           </div>
@@ -66,7 +66,7 @@ const Stage6HydraulicPage: React.FC = () => {
             <h2 className="text-3xl font-bold text-green-700 mb-6">
               Подберем диаметр трубы для Канала №1
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               На чертеже видно, что Канал №1 состоит из трех отрезков трубопровода:
             </p>
           </div>
@@ -89,7 +89,7 @@ const Stage6HydraulicPage: React.FC = () => {
               <li>• участок 1.2 длиной 22,9 м, с расходом 1,6 м³/час</li>
               <li>• участок 1.3 длиной 24,1 м, с расходом 1,4 м³/час</li>
             </ul>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed">
               Таким образом, по таблице гидравлических сопротивлений (потерь), выбираем диаметр проходного сечения по каждому участку:
             </p>
           </div>
@@ -118,7 +118,7 @@ const Stage6HydraulicPage: React.FC = () => {
         {/* Примечание */}
         <AnimatedElement animationType="fade-up" delay={450}>
           <div className="mb-10">
-            <p className="text-lg text-gray-700 leading-relaxed italic">
+            <p className="text-xl text-gray-700 leading-relaxed italic">
               На участке 1.2 величина h больше 10 м/100 м, но, во-первых, дождеватели на этом участке расположены вдоль радиусной кривой, а значит, реальный сектор их полива будет меньше расчетного 180°, т. е. расход и гидравлические потери будут также меньше расчетных. Во-вторых, длина участка настолько мала, что это превышение можно считать несущественным.
             </p>
           </div>
@@ -130,7 +130,7 @@ const Stage6HydraulicPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Сводная таблица всех каналов
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
               Аналогичным образом подбираем диаметр труб для всех каналов и помещаем их в сводную таблицу.
             </p>
 
@@ -183,7 +183,7 @@ const Stage6HydraulicPage: React.FC = () => {
         {/* О целесообразности уменьшения диаметра */}
         <AnimatedElement animationType="fade-up" delay={550}>
           <div className="mb-10 bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-500">
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed">
               При подборе диаметра канальной трубы нужно также понимать, что по мере удаления от клапана количество дождевателей, а значит, и расход будет уменьшаться, следовательно, и диаметр труб по мере уменьшения количества дождевателей можно также уменьшать. Но уменьшение диаметра потребует дополнительных соединительных фитингов, которые, в свою очередь, во-первых, создадут дополнительные гидравлические сопротивления, а во-вторых, могут просто потечь. Поэтому на небольших участках целесообразность постепенного уменьшения диаметра труб определяется расчетами в каждом отдельном случае.
             </p>
           </div>
@@ -195,10 +195,10 @@ const Stage6HydraulicPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Выбор диаметра магистральной трубы
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Расход воды при выборе диаметра магистральной, т. е. основной питающей трубы, выбираем равным расходу большего из каналов. Но он (диаметр) не должен быть меньше диаметра нагнетательного патрубка насоса.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Диаметр магистральной трубы в нашем случае выбираем по самым производительным каналам — Каналу №2 или Каналу №3 – 3,2 м³/час.
             </p>
             <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
@@ -215,7 +215,7 @@ const Stage6HydraulicPage: React.FC = () => {
             <h2 className="text-3xl font-bold text-green-700 mb-6">
               Расчет проектного входного давления
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Таким образом, на данный момент мы имеем все данные для составления основного равенства (Этап-2 Источники Водоснабжения) для вычисления проектного входного давления воды — P<sub>пр.вх</sub>, необходимого для обеспечения работы нашей системы автоматического полива.
             </p>
 
@@ -233,10 +233,10 @@ const Stage6HydraulicPage: React.FC = () => {
               </div>
             </div>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               В нашем случае h<sub>под</sub> = h<sub>рел</sub> = 0
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Для определения h<sub>тр</sub> мы берем в расчет не общую длину водопровода, а уже известный нам показатель L<sub>max</sub>, равный прямому пути воды без ответвлений от источника водоснабжения до самого отдаленного дождевателя. В нашем случае
             </p>
 
@@ -246,7 +246,7 @@ const Stage6HydraulicPage: React.FC = () => {
               <p className="text-lg font-mono text-gray-800">h<sub>тр</sub> = h<sub>маг</sub> + h<sub>1.1</sub> + h<sub>1.2</sub></p>
             </div>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Подставляя это выражение в равенство, получаем:
             </p>
 
@@ -282,7 +282,7 @@ const Stage6HydraulicPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Расчет энергозатрат насосной станции
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Также в том случае, если водоснабжение обеспечивается насосной станцией, необходимо понимать, что чем выше гидравлические сопротивления в трубопроводе, тем больше электроэнергии будет тратить двигатель вашего насоса на их преодоление. Эти затраты могут быть рассчитаны по формуле:
             </p>
 

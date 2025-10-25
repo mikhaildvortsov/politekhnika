@@ -34,7 +34,7 @@ const SystemsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed text-center">
+              <p className="text-2xl text-gray-700 leading-relaxed text-center">
                 Несмотря на то, что многие дачники и садоводы выполняют орошение самостоятельно, специалисты настоятельно рекомендуют пользоваться специальными системами автополива.
               </p>
             </div>
@@ -97,10 +97,10 @@ const SystemsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Стоит обратить внимание на то, что без использования системы автополива нельзя хорошо выходить газон. Ведь из-за человеческого фактора бывает не только несвоевременный уход, но и несвоевременный полив. В свою очередь автополив имеет множество плюсов, это значительная экономия воды, времени и электричества. <span className="text-green-600 font-semibold">Используя систему автоматического полива, можно сэкономить более 2000 рублей на 10 соток в месяц.</span>
               </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Автополив – это лучший способ провести орошение своего участка даже в самых труднодоступных местах. Воспользуйтесь этой системой и вы сможете самостоятельно убедиться в множестве ее преимуществ.
               </p>
             </div>
@@ -161,7 +161,7 @@ const SystemsPage: React.FC = () => {
                   </li>
                 </ul>
 
-                <p className="text-xl text-gray-700 leading-relaxed mt-6">
+                <p className="text-2xl text-gray-700 leading-relaxed mt-6">
                   Многие знают, что для нормального роста растений, необходимо выполнять регулярный автополив. Когда работа выполняется самостоятельно, нет точной уверенности в том, что орошение будет выполнено качественно, именно по этой причине обязательно стоит пользоваться устройством автоматического полива.
                 </p>
               </div>

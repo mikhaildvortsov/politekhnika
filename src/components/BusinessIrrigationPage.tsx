@@ -33,7 +33,7 @@ const BusinessIrrigationPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Оригинальное решение по озеленению Вашей территории может требовать серьезных вложений. Но Вы никогда не сможете назвать их пассивными. Грамотно обустроенное, ухоженное пространство вокруг зданий будет работать на Ваше имя не один год. Обратитесь к нашим специалистам за консультацией в вопросе озеленения и системы автоматического полива. Поможем в кратчайшие сроки с подбором растений и обеспечением их орошения по конкурентным ценам.
               </p>
             </div>
@@ -94,7 +94,7 @@ const BusinessIrrigationPage: React.FC = () => {
               </ul>
 
               <div className="mt-8 p-8 bg-green-50 rounded-xl border-2 border-green-200">
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Правильно настроенная система автополива работает без участия владельца участка. Это исключает человеческий фактор и гарантирует своевременный полив.
                 </p>
               </div>

@@ -72,10 +72,10 @@ const HomeIrrigationPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Ваш дом, Ваше пространство. Переезжая из города, мы стремимся совместить комфортную жизнь с близостью к Природе. Рядом с собой мы хотим видеть живые цветы, меняющие цвет листья деревьев, ходить с детьми босиком по только что скошенному газону. Прекрасно и просто.
               </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Установить систему автоматического полива для участков площадью до нескольких тысяч кв.м. для нас очень просто. Потому что за 16 лет существования компании мы создали сотни таких работающих систем полива по всей стране. Мы кладем простое в основу Прекрасного.
               </p>
             </div>
@@ -94,7 +94,7 @@ const HomeIrrigationPage: React.FC = () => {
 
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 В современном мире система автополива уже является не роскошью, а повседневной необходимостью. Решив заказать у нас систему автоматического полива, Вы обязательно оцените ее преимущества.
               </p>
               

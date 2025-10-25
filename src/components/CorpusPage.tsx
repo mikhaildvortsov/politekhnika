@@ -3,71 +3,119 @@ import AnimatedElement from './AnimatedElement';
 
 const CorpusPage: React.FC = () => {
   const products = [
-    { height: "5 см", price: "50 руб.", image: "/images/photos/d5.jpg" },
-    { height: "10 см", price: "180 руб.", image: "/images/photos/d10.jpg" },
-    { height: "15 см", price: "500 руб.", image: "/images/photos/d15.jpg" },
-    { height: "30 см", price: "800 руб.", image: "/images/photos/d30.jpg" }
+    { 
+      model: "PROS-00",
+      description: "Корпус дождевателя Pro-Spray, переходник для кустарников со впускным отверстием ½\"; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-00-R",
+      description: "Корпус дождевателя Pro-Spray, переходник для кустарников со впускным отверстием ½\", указатель применения технической воды; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-02",
+      description: "Корпус дождевателя Pro-Spray, выдвижение на 5 см, впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-03",
+      description: "Корпус дождевателя Pro-Spray, выдвижение на 7,5 см, обратный клапан и впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-04",
+      description: "Корпус дождевателя Pro-Spray, выдвижение на 10 см, впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-04-CV-R",
+      description: "Корпус дождевателя Pro-Spray, выдвижение на 10 см, обратный клапан, впускное отверстие ½\", указатель применения технической воды; совместим с форсунками с внутренней резьбой"
+    },
+    { 
+      model: "PROS-06",
+      description: "Корпус дождевателя Pro-Spray, выдвижение на 15 см, впускное отверстие ½\"; без бокового впуска, совместим с форсунками с внутренней резьбой"
+    }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      {/* Hero Section with Background */}
+      <section className="relative">
+        <div 
+          className="relative h-96 md:h-[32rem] overflow-hidden bg-gray-800"
+          style={{
+            backgroundImage: 'url(/images/photos/korpus.webp)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center 75%',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <AnimatedElement animationType="fade-up" delay={200}>
+              <div className="text-center text-white px-4">
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                  Корпусы дождевателей
+                </h1>
+              </div>
+            </AnimatedElement>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
-            <h1 className="text-4xl md:text-5xl font-bold text-green-700 mb-12 text-center">
-              Корпусы дождевателей
-            </h1>
+            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
+              Особенности и преимущества
+            </h2>
           </AnimatedElement>
 
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-3xl mx-auto">
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Предустановленный регулятор давления в штоке(опция)
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Предварительно установленный обратный клапан (опционально)
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Храповой механизм поворота штока
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Прочный и надежный, текстурированный корпус
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Боковое и нижнее подключение на модели 6" и 12" (15 см и 30 см)
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-7 h-7 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-xl text-gray-700 leading-relaxed">
+                  <span className="text-2xl text-gray-700 leading-relaxed">
                     Прочная пружина редукции из нержавеющей стали
                   </span>
                 </li>
@@ -88,7 +136,7 @@ const CorpusPage: React.FC = () => {
                   <div className="w-12 h-12 bg-green-600 rounded-full flex-shrink-0"></div>
                   <h3 className="text-2xl font-bold text-gray-900">Характеристики</h3>
                 </div>
-                <ul className="space-y-3 text-gray-700">
+                <ul className="space-y-3 text-gray-700 text-lg">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
                     <span>Размер впускного отверстия: ½"</span>
@@ -112,7 +160,7 @@ const CorpusPage: React.FC = () => {
                   <div className="w-12 h-12 bg-green-600 rounded-full flex-shrink-0"></div>
                   <h3 className="text-2xl font-bold text-gray-900">Спецификация</h3>
                 </div>
-                <ul className="space-y-2 text-sm text-gray-700">
+                <ul className="space-y-2 text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
                     <span>i-PRO300 3"</span>
@@ -160,7 +208,7 @@ const CorpusPage: React.FC = () => {
                   <div className="w-12 h-12 bg-green-600 rounded-full flex-shrink-0"></div>
                   <h3 className="text-2xl font-bold text-gray-900">Применение</h3>
                 </div>
-                <ul className="space-y-3 text-gray-700">
+                <ul className="space-y-3 text-gray-700 text-lg">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
                     <span>Орошение коммерческих объектов</span>
@@ -176,38 +224,45 @@ const CorpusPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Products Section */}
-      <section className="py-16 bg-gray-50">
+      {/* Products Table Section */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={100}>
             <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
-              Цены на корпусы дождевателей
+              Модели корпусов дождевателей
             </h2>
           </AnimatedElement>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {products.map((product, index) => (
-              <AnimatedElement key={index} animationType="fade-up" delay={200 + index * 100}>
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div className="h-64 bg-white flex items-center justify-center p-8">
-                    <img 
-                      src={product.image} 
-                      alt={`Корпус ${product.height}`}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <div className="p-6 bg-gray-50">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2 text-center">
-                      Высота: {product.height}
-                    </h3>
-                    <p className="text-2xl font-bold text-green-600 text-center">
-                      {product.price}
-                    </p>
-                  </div>
-                </div>
-              </AnimatedElement>
-            ))}
-          </div>
+          <AnimatedElement animationType="fade-up" delay={200}>
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-green-700">
+                    <tr>
+                      <th scope="col" className="px-6 py-4 text-left text-lg font-semibold text-white uppercase tracking-wider">
+                        Модель
+                      </th>
+                      <th scope="col" className="px-6 py-4 text-left text-lg font-semibold text-white uppercase tracking-wider">
+                        Описание
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {products.map((product, index) => (
+                      <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                        <td className="px-6 py-5 whitespace-nowrap text-lg font-medium text-gray-900">
+                          {product.model}
+                        </td>
+                        <td className="px-6 py-5 text-base text-gray-700 leading-relaxed">
+                          {product.description}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </AnimatedElement>
         </div>
       </section>
     </div>

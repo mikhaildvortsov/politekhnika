@@ -25,7 +25,7 @@ const EquipmentPage: React.FC = () => {
     },
     {
       id: 3,
-      name: 'Корпус дождевателя, спринклер',
+      name: 'Корпусы дождеваталей, спринклеры',
       image: '/images/photos/sprinkler.jpg',
       link: '/оборудование-для-полива/корпуса-дождевателей/'
     },

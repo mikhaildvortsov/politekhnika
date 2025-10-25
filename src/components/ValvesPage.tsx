@@ -387,7 +387,7 @@ const ValvesPage: React.FC = () => {
                   <div className="flex-shrink-0 text-5xl">💡</div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Совет специалиста</h3>
-                    <p className="text-xl text-gray-700 leading-relaxed">
+                    <p className="text-2xl text-gray-700 leading-relaxed">
                       При установке клапанов в коробах на низинных участках предусмотрите дренажные отверстия для отвода скопившейся воды.
                     </p>
                   </div>

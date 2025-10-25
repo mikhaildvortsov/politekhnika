@@ -33,10 +33,10 @@ const Stage5DistributionPage: React.FC = () => {
         {/* Пример участка */}
         <AnimatedElement animationType="fade-up" delay={200}>
           <div className="mb-12">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               В качестве примера взят участок неправильной формы с габаритными размерами: 38,5 м на 22,5 м, общей площадью 795 м². Диаметр врезки в водовод централизованного водоснабжения — Ø 32 мм. Участок планируется засеять газоном. Вся площадь участка отнесена к одной поливной зоне, т. е. требует одинаковой нормы полива.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
               Доступный водный бюджет, исходя из диаметра врезки, принимаем равным 3,2 м³/час.
             </p>
           </div>
@@ -45,7 +45,7 @@ const Stage5DistributionPage: React.FC = () => {
         {/* Выбор типа дождевателей */}
         <AnimatedElement animationType="fade-up" delay={250}>
           <div className="mb-10">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Участок средних размеров, и при доступном водном бюджете от 5 м³/час и выше самым разумным было бы использовать роторные дождеватели. Но, исходя из доступного расхода 3,2 м³/час, мы будем использовать ротаторные головки MP ROTATOR 3000-й серии с радиусом полива до 9 м (по паспорту) и стандартные корпуса дождевателей с высотой подъема штока — 10 см.
             </p>
           </div>
@@ -57,21 +57,21 @@ const Stage5DistributionPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               На каком расстоянии друг от друга расставлять дождеватели?
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Во время работы дождевателя количество воды, попадающее на землю, уменьшается по мере удаления от центра дождевателя, поэтому дождеватели необходимо распределить по участку так, чтобы каждая точка участка получала одинаковое количество воды. Это достигается путем взаимного перекрытия секторов полива смежных (соседних) дождевателей.
             </p>
             <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200 mb-4">
-              <p className="text-lg text-gray-700 leading-relaxed mb-3">
+              <p className="text-xl text-gray-700 leading-relaxed mb-3">
                 <strong>Перекрытие должно составлять от 80% до 100%.</strong>
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-3">
+              <p className="text-xl text-gray-700 leading-relaxed mb-3">
                 Полное или 100%-е перекрытие означает, что струи максимальной длины достигают смежных дождевателей. Иными словами, радиус полива равен расстоянию между дождевателями.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 В зарубежной литературе полное перекрытие считается единственно правильным вариантом при проектировании систем автоматического полива.
               </p>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+            <p className="text-xl text-gray-700 leading-relaxed font-semibold">
               Исходя из вышесказанного, а также учитывая, что максимальный радиус головок МР 3000 далеко не 9 метров – выбираем расстояние между дождевателями равным 7 метрам.
             </p>
           </div>
@@ -83,10 +83,10 @@ const Stage5DistributionPage: React.FC = () => {
             <h3 className="text-xl font-bold text-green-800 mb-4">
               Порядок расстановки дождевателей:
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Расставлять дождеватели начинаем с углов участка. Циркулем, в масштабе, чертим секторы полива. Точки пересечения дуги с границей участка будут являться местом расположения следующих дождевателей. Когда все углы заполнены, замыкаем периметр. Затем внутреннюю часть.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+            <p className="text-xl text-gray-700 leading-relaxed font-semibold">
               Всегда придерживайтесь правила, что лучше поставить лишний дождеватель, чем не поставить вообще. Его всегда можно будет или полностью заглушить, или уменьшить радиус полива регулировкой, или поставить головку меньшего радиуса полива.
             </p>
           </div>
@@ -98,10 +98,10 @@ const Stage5DistributionPage: React.FC = () => {
             <h2 className="text-3xl font-bold text-green-700 mb-6">
               Деление дождевателей на каналы
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Следующий этап – деление дождевателей на каналы, т. е. выделение дождевателей в группы, которые мы сможем включить одновременно, исходя из доступного расхода нашего источника водоснабжения – в данном случае 3,2 м³/час. Для этого нам необходимо знать, какой расход у каждого из дождевателей.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Все производители поливочного оборудования предоставляют <a href="/MP-ROTATOR.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">таблицы расходов MP ROTATOR</a> головок дождевателей в зависимости от типоразмера головки, рабочего давления и сектора полива. Применяя таблицы расходов MP ROTATOR 3000, мы сначала рассчитаем общее удельное (в единицу времени) водопотребление по всей площади участка.
             </p>
           </div>
@@ -110,7 +110,7 @@ const Stage5DistributionPage: React.FC = () => {
         {/* Расчет */}
         <AnimatedElement animationType="fade-up" delay={450}>
           <div className="mb-10">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               После недолгих подсчетов определяем, что на нашем участке мы установим:
             </p>
             <ul className="list-disc list-inside ml-4 space-y-2 text-lg text-gray-700 mb-6">
@@ -118,7 +118,7 @@ const Stage5DistributionPage: React.FC = () => {
               <li>14 головок с сектором полива 180° или близким к нему</li>
               <li>1 головка с сектором 90°</li>
             </ul>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Из таблиц находим, что расход:
             </p>
             <ul className="list-disc list-inside ml-4 space-y-2 text-lg text-gray-700 mb-6">
@@ -142,18 +142,18 @@ const Stage5DistributionPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Расчет количества каналов
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
               Разделив общий удельный расход 12,2 м³/час на доступный 3,2 м³/час, мы получим минимальное количество каналов, на которые нам необходимо разбить наш участок:
             </p>
             <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200 mb-6">
               <p className="text-xl font-mono text-gray-800 mb-3">
                 12,2 / 3,2 = 3,81
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 Округлив в большую сторону до целого числа, получаем, что нам понадобится <strong>4 канала</strong>, чтобы полить участок, не выйдя за лимит.
               </p>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed italic">
+            <p className="text-xl text-gray-700 leading-relaxed italic">
               Необходимо отметить, что 4 – это минимальное количество каналов, никто не запрещает нам поделить участок на 5, 6 или более каналов.
             </p>
           </div>
@@ -184,7 +184,7 @@ const Stage5DistributionPage: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+            <p className="text-xl text-gray-700 leading-relaxed font-semibold">
               В итоге необходимо учесть достаточно много факторов и просчитать несколько вариантов, прежде чем решить, на сколько каналов разбивать полив.
             </p>
           </div>
@@ -196,7 +196,7 @@ const Stage5DistributionPage: React.FC = () => {
             <p className="text-xl text-gray-800 leading-relaxed mb-3">
               В нашем случае выбираем количество каналов равным четырем.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed">
               Выделяем различными цветами трубопроводы, соединяющие дождеватели разных каналов.
             </p>
           </div>

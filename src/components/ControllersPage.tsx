@@ -38,7 +38,7 @@ const ControllersPage: React.FC = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6">
                   Настройте зоны полива
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   С Wi-Fi контроллером Hunter вы легко настроите расписание полива для каждой зоны вашего участка. Система автоматически адаптируется под погодные условия и сэкономит воду.
                 </p>
               </div>
@@ -76,10 +76,10 @@ const ControllersPage: React.FC = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6">
                   СОЗДАЙТЕ СВОЙ ГРАФИК
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Система управления поливом Wi-Fi контроллерами позволяет вам создавать индивидуальные графики полива для каждой зоны. Вы можете устанавливать время начала, продолжительность и периодичность полива, учитывая расположение зоны, тип растений и особенности почвы.
                 </p>
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Есть возможность подключать различные датчики и сенсоры с обратной связью – например в реальном времени отслеживать расход воды в той или иной зоне системы.
                 </p>
               </div>
@@ -97,7 +97,7 @@ const ControllersPage: React.FC = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6">
                   ИСПОЛЬЗУЙТЕ ЛОГИЧНО
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl text-gray-700 leading-relaxed">
                   Мобильное приложение wi-fi контроллера, предоставляет Вам полный контроль над системой автополива прямо с вашего смартфона. Вы можете запускать и останавливать полив, изменять настройки зон, получать уведомления о состоянии системы и даже управлять несколькими контроллерами из одного места. Интуитивный интерфейс делает управление поливом простым и удобным, где бы вы ни находились.
                 </p>
               </div>
@@ -124,7 +124,7 @@ const ControllersPage: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6">
                 ДЕЛИТЕСЬ ДОСТУПОМ
               </h2>
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-2xl text-gray-700 leading-relaxed">
                 Функция совместного доступа позволяет предоставить членам семьи или работнику на участке возможность управлять системой полива. Вы можете легко добавлять и удалять пользователей, а также устанавливать разные уровни доступа. Это особенно удобно, когда вы в отпуске или когда за садом ухаживают несколько человек. Все изменения синхронизируются в реальном времени между всеми устройствами.
               </p>
             </div>
