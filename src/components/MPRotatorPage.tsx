@@ -118,10 +118,10 @@ const MPRotatorPage: React.FC = () => {
 
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-2xl text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-700 leading-relaxed">
                 Подходит к корпусу дождевателя любого производителя Hunter, Rain Bird, Irritrol, превращая его в ороситель с высоким показателем равномерности покрытия и низким расходом воды.
               </p>
-              <p className="text-2xl text-gray-700 leading-relaxed font-semibold">
+              <p className="text-xl text-gray-700 leading-relaxed font-semibold">
                 Важно: MP Rotator обеспечивает равномерное распределение осадков на любом секторе и при любом радиусе. Вода разбрызгивается медленно и равномерно, что значительно сокращает просачивание в грунт и потери.
               </p>
             </div>

@@ -2,37 +2,6 @@ import React from 'react';
 import AnimatedElement from './AnimatedElement';
 
 const CorpusPage: React.FC = () => {
-  const products = [
-    { 
-      model: "PROS-00",
-      description: "Корпус дождевателя Pro-Spray, переходник для кустарников со впускным отверстием ½\"; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-00-R",
-      description: "Корпус дождевателя Pro-Spray, переходник для кустарников со впускным отверстием ½\", указатель применения технической воды; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-02",
-      description: "Корпус дождевателя Pro-Spray, выдвижение на 5 см, впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-03",
-      description: "Корпус дождевателя Pro-Spray, выдвижение на 7,5 см, обратный клапан и впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-04",
-      description: "Корпус дождевателя Pro-Spray, выдвижение на 10 см, впускное отверстие ½\"; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-04-CV-R",
-      description: "Корпус дождевателя Pro-Spray, выдвижение на 10 см, обратный клапан, впускное отверстие ½\", указатель применения технической воды; совместим с форсунками с внутренней резьбой"
-    },
-    { 
-      model: "PROS-06",
-      description: "Корпус дождевателя Pro-Spray, выдвижение на 15 см, впускное отверстие ½\"; без бокового впуска, совместим с форсунками с внутренней резьбой"
-    }
-  ];
-
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with Background */}
@@ -163,39 +132,31 @@ const CorpusPage: React.FC = () => {
                 <ul className="space-y-2 text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>i-PRO300 3"</span>
+                    <span>PROS-00 – Невыдвижной для кустарников ½"</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO400 4"</span>
+                    <span>PROS-00-R – Невыдвижной для кустарников с указателем технической воды</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO400-CV 4" (обратный клапан)</span>
+                    <span>PROS-02 – Выдвижение 5 см</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO400-PR 4" (регулятор давления)</span>
+                    <span>PROS-03 – Выдвижение 7,5 см с обратным клапаном</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO600 6"</span>
+                    <span>PROS-04 – Выдвижение 10 см</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO600-CV 6" (обратный клапан)</span>
+                    <span>PROS-04-CV-R – Выдвижение 10 см с обратным клапаном</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO600-SI 6" (боковое подключение)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO1200-SI 12" (боковое подключение)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>I-PRO400R 4" (сменная форсунка)</span>
+                    <span>PROS-06 – Выдвижение 15 см</span>
                   </li>
                 </ul>
               </div>
@@ -224,47 +185,6 @@ const CorpusPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Products Table Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedElement animationType="fade-up" delay={100}>
-            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-12 text-center">
-              Модели корпусов дождевателей
-            </h2>
-          </AnimatedElement>
-
-          <AnimatedElement animationType="fade-up" delay={200}>
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="overflow-x-auto">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="bg-green-700">
-                    <tr>
-                      <th scope="col" className="px-6 py-4 text-left text-lg font-semibold text-white uppercase tracking-wider">
-                        Модель
-                      </th>
-                      <th scope="col" className="px-6 py-4 text-left text-lg font-semibold text-white uppercase tracking-wider">
-                        Описание
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    {products.map((product, index) => (
-                      <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                        <td className="px-6 py-5 whitespace-nowrap text-lg font-medium text-gray-900">
-                          {product.model}
-                        </td>
-                        <td className="px-6 py-5 text-base text-gray-700 leading-relaxed">
-                          {product.description}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </AnimatedElement>
-        </div>
-      </section>
     </div>
   );
 };

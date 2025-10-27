@@ -19,31 +19,31 @@ const EquipmentPage: React.FC = () => {
     },
     {
       id: 2,
-      name: 'Электромагнитные клапаны',
+      name: 'Электромагнитные клапаны для автополива',
       image: '/images/photos/pgv_101g.jpg',
       link: '/оборудование-для-полива/электромагнитные-клапаны-для-полива/'
     },
     {
       id: 3,
-      name: 'Корпусы дождеваталей, спринклеры',
+      name: 'Корпус дождевателя, спринклер',
       image: '/images/photos/sprinkler.jpg',
       link: '/оборудование-для-полива/корпуса-дождевателей/'
     },
     {
       id: 4,
-      name: 'Ротаторные форсунки MP Rotator',
-      image: '/images/photos/mprotator.jpg',
+      name: 'Ротаторные головки МР ROTATOR',
+      image: '/images/photos/rotator.jpg',
       link: '/оборудование-для-полива/mp-rotator-ротаторные-головки/'
     },
     {
       id: 5,
-      name: 'Форсунки и сопла',
+      name: 'Статические головки фиксированные и регулируемые',
       image: '/images/photos/heads.jpg',
       link: '/оборудование-для-полива/форсунки-сопла/'
     },
     {
       id: 6,
-      name: 'Роторные дождеватели',
+      name: 'Роторные дождеватели, спринклеры',
       image: '/images/photos/rotor.jpg',
       link: '/оборудование-для-полива/роторные-дождеватели/'
     },
@@ -81,7 +81,7 @@ const EquipmentPage: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
                   ОБОРУДОВАНИЕ ДЛЯ АВТОМАТИЧЕСКОГО ПОЛИВА
                 </h1>
-                <p className="text-xl md:text-2xl font-light">
+                <p className="text-lg md:text-xl font-light">
                   Профессиональное оборудование от ведущих мировых производителей
                 </p>
               </div>

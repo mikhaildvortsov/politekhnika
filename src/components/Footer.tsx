@@ -18,18 +18,45 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">ПОЛЕЗНОЕ</h3>
             <div className="space-y-2 text-sm">
-              <Link 
-                to="/советы-по-проектированию" 
-                className="block hover:text-teal-300 transition-colors duration-200 font-semibold"
-              >
+              <p className="block font-semibold text-white">
                 СОВЕТЫ ПО ПРОЕКТИРОВАНИЮ
+              </p>
+              <Link 
+                to="/советы-по-проектированию/этап-1-геометрия-участка/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-1 ГЕОМЕТРИЯ УЧАСТКА
               </Link>
-              <p className="text-gray-300 pl-4">ЭТАП-1 ГЕОМЕТРИЯ УЧАСТКА</p>
-              <p className="text-gray-300 pl-4">ЭТАП-2 ИСТОЧНИКИ ВОДОСНАБЖЕНИЯ</p>
-              <p className="text-gray-300 pl-4">ЭТАП-3. АГРОНОМИЧЕСКИЙ, ГЕОГРАФИЧЕСКИЙ, КЛИМАТИЧЕСКИЙ.</p>
-              <p className="text-gray-300 pl-4">ЭТАП-4. ВЫБОР ТИПА ДОЖДЕВАТЕЛЕЙ.</p>
-              <p className="text-gray-300 pl-4">ЭТАП-5. РАСПРЕДЕЛЕНИЕ ДОЖДЕВАТЕЛЕЙ ПО ТЕРРИТОРИИ УЧАСТКА И ДЕЛЕНИЕ ИХ ПО КАНАЛАМ.</p>
-              <p className="text-gray-300 pl-4">ЭТАП-6. ГИДРАВЛИЧЕСКИЙ РАСЧЕТ И ПОДБОР ДИАМЕТРОВ ТРУБ.</p>
+              <Link 
+                to="/советы-по-проектированию/этап-2-источник-водоснабжения/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-2 ИСТОЧНИКИ ВОДОСНАБЖЕНИЯ
+              </Link>
+              <Link 
+                to="/советы-по-проектированию/этап-3-агрономия-география-климат/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-3. АГРОНОМИЧЕСКИЙ, ГЕОГРАФИЧЕСКИЙ, КЛИМАТИЧЕСКИЙ.
+              </Link>
+              <Link 
+                to="/советы-по-проектированию/этап-4-выбор-типа-дождевателей/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-4. ВЫБОР ТИПА ДОЖДЕВАТЕЛЕЙ.
+              </Link>
+              <Link 
+                to="/советы-по-проектированию/этап-5-распределение-дождевателей/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-5. РАСПРЕДЕЛЕНИЕ ДОЖДЕВАТЕЛЕЙ ПО ТЕРРИТОРИИ УЧАСТКА И ДЕЛЕНИЕ ИХ ПО КАНАЛАМ.
+              </Link>
+              <Link 
+                to="/советы-по-проектированию/этап-6-гидравлический-расчет/" 
+                className="text-gray-300 pl-4 block hover:text-teal-300 transition-colors duration-200"
+              >
+                ЭТАП-6. ГИДРАВЛИЧЕСКИЙ РАСЧЕТ И ПОДБОР ДИАМЕТРОВ ТРУБ.
+              </Link>
             </div>
           </div>
 

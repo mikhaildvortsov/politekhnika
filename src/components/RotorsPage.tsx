@@ -12,22 +12,27 @@ const RotorsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedElement animationType="fade-up" delay={100}>
-            <h1 className="text-4xl md:text-5xl font-bold text-green-700 mb-8 text-center">
-              Роторные дождеватели
-            </h1>
-          </AnimatedElement>
-
-          <AnimatedElement animationType="fade-up" delay={200}>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
-              Самовыдвижные роторные дождеватели производства
-            </h2>
-            <h3 className="text-xl md:text-2xl font-medium text-gray-700 mb-12 text-center">
-              HUNTER • RAIN BIRD • IRRITROL
-            </h3>
-          </AnimatedElement>
+      <section className="relative">
+        <div className="relative h-96 md:h-[32rem] overflow-hidden">
+          <img
+            src="/images/photos/rotor_sprinkler.jpg"
+            alt="Роторные дождеватели"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center' }}
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <AnimatedElement animationType="fade-up" delay={200}>
+              <div className="text-center text-white px-4">
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+                  РОТОРНЫЕ ДОЖДЕВАТЕЛИ
+                </h1>
+                <p className="text-xl md:text-2xl font-light">
+                  Профессиональные роторные дождеватели
+                </p>
+              </div>
+            </AnimatedElement>
+          </div>
         </div>
       </section>
 
@@ -49,12 +54,8 @@ const RotorsPage: React.FC = () => {
                   </div>
                 </div>
               </AnimatedElement>
-                <h3 className="text-2xl font-bold text-green-700 mb-4">
-                  Профессиональные роторные дождеватели
-                </h3>
-                
-                <p className="text-2xl text-gray-700 leading-relaxed">
-                  Роторные дождеватели - это надежное решение для автоматического полива средних и больших газонов. Благодаря вращающейся струе воды обеспечивается равномерное орошение территории с высокой эффективностью использования воды.
+                <p className="text-2xl text-gray-700 leading-relaxed mb-6">
+                  Роторные дождеватели — это надежное решение для автоматического полива средних и больших по площади газонов. Благодаря вращающейся струе воды обеспечивается равномерное орошение территории с высокой эффективностью использования воды.
                 </p>
                 
                 <ul className="space-y-4">
@@ -63,7 +64,7 @@ const RotorsPage: React.FC = () => {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-2xl text-gray-700 leading-relaxed">
-                      Внешняя и внутренняя резьба 3/4"(дюйма), 1"(дюйм), 1 1/4"(дюйма), 2"(дюйма), 3"(дюйма)
+                      Внутренняя присоединительная резьба 3/4"(дюйма)
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -71,31 +72,7 @@ const RotorsPage: React.FC = () => {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-2xl text-gray-700 leading-relaxed">
-                      Конфигурация прямоточная или угловая
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-2xl text-gray-700 leading-relaxed">
-                      Корпус и крышка выполнены из полиамида, армированного стекловолокном (30%)
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-2xl text-gray-700 leading-relaxed">
-                      Серия F и M - это клапаны полной линейки размеров, которые очень просты в установке и использовании
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-2xl text-gray-700 leading-relaxed">
-                      Исторический диапазон для Irritrol, который всегда гарантировал высокую производительность и надежность
+                      Производительность и надежность
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -111,7 +88,7 @@ const RotorsPage: React.FC = () => {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-2xl text-gray-700 leading-relaxed">
-                      8 стандартных и 4 низкоугловых сопла в комплекте для различных условий
+                      8 стандартных и 4 низкоугловых сопла в комплекте для различных по ширине участков
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -299,69 +276,6 @@ const RotorsPage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-green-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">О НАС</h3>
-              <p className="text-sm leading-relaxed">
-                ООО «Политехника» — динамично развивающееся предприятие в г. Волжский, специализирующееся на проектировании и монтаже систем автоматического полива, ландшафтном строительстве и благоустройстве территории в целом. Многолетний опыт работы позволяет нашим сотрудникам выполнять работы по проектам различной сложности — от нескольких сотен квадратных метров до нескольких гектаров.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">КОНТАКТЫ</h3>
-              <div className="space-y-3 text-sm">
-                <div className="flex items-start">
-                  <svg className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                  </svg>
-                  <div>
-                    <p className="font-medium">Адрес</p>
-                    <p>г. Волжский, Фонтанная, 6</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <svg className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                  </svg>
-                  <div>
-                    <p className="font-medium">Телефон</p>
-                    <p>8-987-641-78-68</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <svg className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                  </svg>
-                  <div>
-                    <p className="font-medium">Email</p>
-                    <p>polytekhnika@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold mb-4 uppercase border-b border-green-700 pb-2">ПОЛЕЗНОЕ</h3>
-              <div className="space-y-2 text-sm">
-                <p>СОВЕТЫ ПО ПРОЕКТИРОВАНИЮ</p>
-                <p>ЭТАП-1 ГЕОМЕТРИЯ УЧАСТКА</p>
-                <p>ЭТАП-2 ИСТОЧНИКИ ВОДОСНАБЖЕНИЯ</p>
-                <p>ЭТАП-3. АГРОНОМИЧЕСКИЙ, ГЕОГРАФИЧЕСКИЙ, КЛИМАТИЧЕСКИЙ.</p>
-                <p>ЭТАП-4. ВЫБОР ТИПА ДОЖДЕВАТЕЛЕЙ.</p>
-                <p>ЭТАП-5. РАСПРЕДЕЛЕНИЕ ДОЖДЕВАТЕЛЕЙ ПО ТЕРРИТОРИИ УЧАСТКА И ДЕЛЕНИЕ ИХ ПО КАНАЛАМ.</p>
-                <p>ЭТАП-6. ГИДРАВЛИЧЕСКИЙ РАСЧЕТ И ПОДБОР ДИАМЕТРОВ ТРУБ.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

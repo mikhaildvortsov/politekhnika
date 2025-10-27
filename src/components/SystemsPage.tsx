@@ -8,12 +8,12 @@ const SystemsPage: React.FC = () => {
       <section className="relative">
         <div className="relative h-96 md:h-[32rem] overflow-hidden">
           <img
-            src="/images/photos/sistema-avtopoliva.jpg"
+            src="/images/photos/avtopoliv_systems.png"
             alt="Системы автополива"
             className="w-full h-full object-cover"
-            style={{ objectPosition: 'center 60%' }}
+            style={{ objectPosition: 'center bottom' }}
           />
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <AnimatedElement animationType="fade-up" delay={200}>
               <div className="text-center text-white px-4">
@@ -34,8 +34,8 @@ const SystemsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
-              <p className="text-2xl text-gray-700 leading-relaxed text-center">
-                Несмотря на то, что многие дачники и садоводы выполняют орошение самостоятельно, специалисты настоятельно рекомендуют пользоваться специальными системами автополива.
+              <p className="text-2xl text-gray-700 leading-relaxed">
+                Сегодня не нужно никого убеждать, что системы автоматического полива газонов и клумб способны высвободить значительное количество вашего времени и сил. Грязные, тяжелые шланги, необходимость их где-то хранить и прочие неудобства, связанные с ручным поливом — с этим вы обязательно столкнетесь. И это при том, что при поливе вручную вы никогда не добьетесь оптимального по расходу и по равномерности полива различных участков.
               </p>
             </div>
           </AnimatedElement>
@@ -57,23 +57,23 @@ const SystemsPage: React.FC = () => {
                 <ul className="space-y-3">
                 <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
                   <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">1</span>
-                  <span className="text-lg text-gray-700">Выполняется скрытое функционирование всей системы</span>
+                  <span className="text-lg text-gray-700">Система автополива монтируется скрытым способом и не нарушает целостность ландшафта участка</span>
                 </li>
                 <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
                   <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">2</span>
-                  <span className="text-lg text-gray-700">Качественное орошение всего участка</span>
+                  <span className="text-lg text-gray-700">Качественный и равномерный полив по всем зонам с необходимым расходом воды на единицу площади</span>
                 </li>
                 <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
                   <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">3</span>
-                  <span className="text-lg text-gray-700">В автополиве имеются встроенные водяные розетки</span>
+                  <span className="text-lg text-gray-700">Система автоматического полива имеет гибкую структуру и может надстраиваться с добавлением новых зон или изменением существующих</span>
                 </li>
                 <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
                   <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">4</span>
-                  <span className="text-lg text-gray-700">В системах автоматического полива предусмотрен высокий уровень надежности</span>
+                  <span className="text-lg text-gray-700">Возможность установки гидрантов для подключения шлангов – водяных розеток, а также подключение к системе других потребителей воды</span>
                 </li>
                 <li className="flex items-start bg-green-50 p-4 rounded-lg border-l-4 border-green-600 shadow-md">
                   <span className="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">5</span>
-                  <span className="text-lg text-gray-700">Присутствуют дополнительные блоки, что делают работу системы еще более совершенной</span>
+                  <span className="text-lg text-gray-700">Возможность подключать множество датчиков и устройств – автоматический впрыск удобрений и пр., что делает систему более продвинутой с технической стороны</span>
                 </li>
               </ul>
               </div>
@@ -98,10 +98,10 @@ const SystemsPage: React.FC = () => {
           <AnimatedElement animationType="fade-up" delay={200}>
             <div className="max-w-4xl mx-auto space-y-6">
               <p className="text-2xl text-gray-700 leading-relaxed">
-                Стоит обратить внимание на то, что без использования системы автополива нельзя хорошо выходить газон. Ведь из-за человеческого фактора бывает не только несвоевременный уход, но и несвоевременный полив. В свою очередь автополив имеет множество плюсов, это значительная экономия воды, времени и электричества. <span className="text-green-600 font-semibold">Используя систему автоматического полива, можно сэкономить более 2000 рублей на 10 соток в месяц.</span>
+                Современное оборудование, грамотный проект и качественный монтаж на долгие годы позволят вам снять с себя эту трудоемкую задачу и все проблемы с этим связанные.
               </p>
               <p className="text-2xl text-gray-700 leading-relaxed">
-                Автополив – это лучший способ провести орошение своего участка даже в самых труднодоступных местах. Воспользуйтесь этой системой и вы сможете самостоятельно убедиться в множестве ее преимуществ.
+                Автополив — это лучший способ провести орошение своего участка даже в самых труднодоступных местах. Закажите проект системы автоматического полива у нас, и вы сможете самостоятельно убедиться в множестве её преимуществ.
               </p>
             </div>
           </AnimatedElement>
@@ -139,17 +139,13 @@ const SystemsPage: React.FC = () => {
             <AnimatedElement animationType="fade-right" delay={200}>
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Составляющие, что присутствуют в автополиве:
+                  Основные компоненты:
                 </h3>
 
                 <ul className="space-y-3 text-xl text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-3 mt-1">•</span>
-                    <span>Специальный пульт управления устройством</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 mt-1">•</span>
-                    <span>Датчик дождя</span>
+                    <span>Контроллер управления системой автополива</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-3 mt-1">•</span>
@@ -157,13 +153,21 @@ const SystemsPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-3 mt-1">•</span>
-                    <span>Профессиональные водяные розетки</span>
+                    <span>Корпусы и форсунки дождевателей</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-3 mt-1">•</span>
+                    <span>Надежные трубопроводные системы и фитинги</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-3 mt-1">•</span>
+                    <span>Датчик дождя</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-3 mt-1">•</span>
+                    <span>Профессиональные гидранты (водяные розетки)</span>
                   </li>
                 </ul>
-
-                <p className="text-2xl text-gray-700 leading-relaxed mt-6">
-                  Многие знают, что для нормального роста растений, необходимо выполнять регулярный автополив. Когда работа выполняется самостоятельно, нет точной уверенности в том, что орошение будет выполнено качественно, именно по этой причине обязательно стоит пользоваться устройством автоматического полива.
-                </p>
               </div>
             </AnimatedElement>
 

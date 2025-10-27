@@ -20,7 +20,6 @@ import NozzlesPage from './components/NozzlesPage';
 import RotorsPage from './components/RotorsPage';
 import CorpusPage from './components/CorpusPage';
 import MPRotatorPage from './components/MPRotatorPage';
-import ProjectingAdvicePage from './components/ProjectingAdvicePage';
 import Stage1GeometryPage from './components/Stage1GeometryPage';
 import Stage2WaterSupplyPage from './components/Stage2WaterSupplyPage';
 import Stage3AgronomyPage from './components/Stage3AgronomyPage';
@@ -63,7 +62,6 @@ function App() {
           <Route path="/полимерные-емкости-для-автополива/" element={<div>Емкости - страница в разработке</div>} />
           <Route path="/рулонные-газоны-из-московских-питомн/" element={<LawnsPage />} />
           <Route path="/проектирование-и-монтаж-автополива" element={<DesignPage />} />
-          <Route path="/советы-по-проектированию" element={<ProjectingAdvicePage />} />
           <Route path="/советы-по-проектированию/этап-1-геометрия-участка/" element={<Stage1GeometryPage />} />
           <Route path="/советы-по-проектированию/этап-2-источник-водоснабжения/" element={<Stage2WaterSupplyPage />} />
           <Route path="/советы-по-проектированию/этап-3-агрономия-география-климат/" element={<Stage3AgronomyPage />} />

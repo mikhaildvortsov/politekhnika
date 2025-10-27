@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import AnimatedElement from './AnimatedElement';
 
 const Stage1GeometryPage: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section - Green Header */}
@@ -123,12 +125,15 @@ const Stage1GeometryPage: React.FC = () => {
         {/* Кнопка назад */}
         <AnimatedElement animationType="fade-up" delay={550}>
           <div className="mt-8">
-            <Link 
-              to="/советы-по-проектированию" 
-              className="inline-block bg-white border-2 border-green-600 text-green-600 px-8 py-3 rounded-lg hover:bg-green-50 transition-colors font-semibold"
+            <button 
+              onClick={() => {
+                navigate(-1);
+                setTimeout(() => window.scrollTo(0, 0), 100);
+              }}
+              className="inline-block bg-white border-2 border-green-600 text-green-600 px-8 py-3 rounded-lg hover:bg-green-50 transition-colors font-semibold cursor-pointer"
             >
-              ← Вернуться к списку этапов
-            </Link>
+              ← Назад
+            </button>
           </div>
         </AnimatedElement>
 
