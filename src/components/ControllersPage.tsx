@@ -29,34 +29,6 @@ const ControllersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Main Content Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <AnimatedElement animationType="fade-right" delay={200}>
-              <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6">
-                  Настройте зоны полива
-                </h2>
-                <p className="text-xl text-gray-700 leading-relaxed">
-                  С Wi-Fi контроллером Hunter вы легко настроите расписание полива для каждой зоны вашего участка. Система автоматически адаптируется под погодные условия и сэкономит воду.
-                </p>
-              </div>
-            </AnimatedElement>
-
-            <AnimatedElement animationType="fade-left" delay={300}>
-              <div className="rounded-2xl overflow-hidden">
-                <img 
-                  src="/images/photos/rainbird_system.jpg" 
-                  alt="Система управления поливом"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </AnimatedElement>
-          </div>
-        </div>
-      </section>
-
       {/* СОЗДАЙТЕ СВОЙ ГРАФИК Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
